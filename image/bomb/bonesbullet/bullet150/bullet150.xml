@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:27d9981daf5c913fe66887ecc15d98fb:1/1$ -->
+<TextureAtlas imagePath="bullet150.png">
+    <SubTexture name="bonesbomb150/位图 103" x="41" y="128" width="37" height="80" frameX="-7" frameY="0" frameWidth="53" frameHeight="80"/>
+    <SubTexture name="bonesbomb150/位图 104" x="2" y="93" width="37" height="90" frameX="-8" frameY="0" frameWidth="53" frameHeight="92"/>
+    <SubTexture name="bonesbomb150/位图 106" x="53" y="2" width="44" height="124" frameX="-1" frameY="0" frameWidth="50" frameHeight="124"/>
+    <SubTexture name="bonesbomb150/位图 107" x="2" y="2" width="49" height="89" frameX="-1" frameY="0" frameWidth="53" frameHeight="89"/>
+</TextureAtlas>

@@ -1,0 +1,199 @@
+{
+  "frameRate": 24,
+  "armature": [
+    {
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "Layer 1",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "x": -26.5,
+                    "skX": 0,
+                    "y": -40,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "bonesbomb150/位图 103",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -26.5,
+                    "skX": 0,
+                    "y": -46,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "bonesbomb150/位图 104",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": -26.5,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": -55.5,
+                    "skY": 0
+                  },
+                  "name": "bonesbomb150/位图 105",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -25,
+                    "skX": 0,
+                    "y": -62,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "bonesbomb150/位图 106",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -26.5,
+                    "skX": 0,
+                    "y": -44.5,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "bonesbomb150/位图 107",
+                  "type": "image"
+                }
+              ],
+              "parent": "Layer 1"
+            }
+          ],
+          "name": "default"
+        }
+      ],
+      "name": "bonesBullet150",
+      "bone": [
+        {
+          "transform": {
+            "scY": 2.684677,
+            "x": -13.1,
+            "skX": -90.08,
+            "scX": 2.684677,
+            "y": -0.1,
+            "skY": -90.08
+          },
+          "name": "Layer 1"
+        }
+      ],
+      "animation": [
+        {
+          "name": "default",
+          "scale": 1,
+          "loop": 0,
+          "fadeInTime": 0,
+          "duration": 10,
+          "timeline": [
+            {
+              "name": "Layer 1",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": -13.1,
+                    "skX": -90.08,
+                    "y": -0.1,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 2.684677,
+                    "skY": -90.08,
+                    "scY": 2.684677
+                  },
+                  "z": 0,
+                  "duration": 2
+                },
+                {
+                  "duration": 2,
+                  "z": 0,
+                  "displayIndex": 1,
+                  "transform": {
+                    "x": -25.95,
+                    "skX": -90.08,
+                    "y": -0.15,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 2.684677,
+                    "skY": -90.08,
+                    "scY": 2.684677
+                  }
+                },
+                {
+                  "duration": 2,
+                  "z": 0,
+                  "displayIndex": 2,
+                  "transform": {
+                    "x": -51.4,
+                    "skX": -90.08,
+                    "y": 0.5,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 2.684677,
+                    "skY": -90.08,
+                    "scY": 2.684677
+                  }
+                },
+                {
+                  "duration": 2,
+                  "z": 0,
+                  "displayIndex": 3,
+                  "transform": {
+                    "x": -68.9,
+                    "skX": -90.08,
+                    "y": -4.05,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 2.684677,
+                    "skY": -90.08,
+                    "scY": 2.684677
+                  }
+                },
+                {
+                  "duration": 2,
+                  "z": 0,
+                  "displayIndex": 4,
+                  "transform": {
+                    "x": -29.65,
+                    "skX": -90.08,
+                    "y": -4.6,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 2.684677,
+                    "skY": -90.08,
+                    "scY": 2.684677
+                  }
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "autoTween": 0,
+          "tweenEasing": null
+        }
+      ]
+    }
+  ],
+  "name": "bonesBullet150",
+  "version": 2.3
+}

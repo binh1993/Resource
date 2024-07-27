@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <title>404 - Error</title>
+    <link rel="shortcut icon" href="#"/>
+    <link href="content/themes/common/404/css/main.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="content/themes/oas_homepage/cpb_style_v1.0/static/js/jquery.js"></script>
+    <script>
+        function countDown(secs, surl) {
+            var jumpTo = document.getElementById('time_out_id');
+            jumpTo.innerHTML = secs;
+            if (--secs > 0) {
+                setTimeout("countDown(" + secs + ",'" + surl + "')", 1000);
+            } else {
+                window.location.href = surl;
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="main">
+    <p class="sorry">Trang bạn tìm kiếm không tồn tại</p>
+
+    <p class="out_link">Tự động quay lại trang chủ sau <span id='time_out_id'>5</span> giây</p>
+    <script type="text/javascript">
+
+        var host = window.location.host;
+
+        countDown(5, '//' + host);
+
+    </script>
+</div>
+</body>
+
+</html>

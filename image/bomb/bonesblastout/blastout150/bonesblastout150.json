@@ -1,0 +1,698 @@
+{
+  "frameRate": 24,
+  "armature": [
+    {
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "图层 5",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "x": -31,
+                    "skX": 0,
+                    "y": -31.5,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "bonesbomb150/位图 62",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -66.5,
+                    "skX": 0,
+                    "y": -63.5,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "bonesbomb150/位图 63",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -75.5,
+                    "skX": 0,
+                    "y": -69.5,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "bonesbomb150/位图 64",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -54.5,
+                    "skX": 0,
+                    "y": -53,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "bonesbomb150/位图 65",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": -54.5,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": -56.5,
+                    "skY": 0
+                  },
+                  "name": "bonesbomb150/位图 66",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -51,
+                    "skX": 0,
+                    "y": -54,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "bonesbomb150/位图 67",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": -46.5,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": -50.5,
+                    "skY": 0
+                  },
+                  "name": "bonesbomb150/位图 68",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 5"
+            },
+            {
+              "name": "图层 4",
+              "z": 1,
+              "display": [
+                {
+                  "transform": {
+                    "x": -31,
+                    "skX": 0,
+                    "y": -31.5,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "bonesbomb150/位图 62",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -66.5,
+                    "skX": 0,
+                    "y": -63.5,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "bonesbomb150/位图 63",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -75.5,
+                    "skX": 0,
+                    "y": -69.5,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "bonesbomb150/位图 64",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -54.5,
+                    "skX": 0,
+                    "y": -53,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "bonesbomb150/位图 65",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": -54.5,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": -56.5,
+                    "skY": 0
+                  },
+                  "name": "bonesbomb150/位图 66",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -51,
+                    "skX": 0,
+                    "y": -54,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "bonesbomb150/位图 67",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": -46.5,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": -50.5,
+                    "skY": 0
+                  },
+                  "name": "bonesbomb150/位图 68",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 4"
+            },
+            {
+              "name": "图层 3",
+              "z": 2,
+              "display": [
+                {
+                  "transform": {
+                    "x": -31,
+                    "skX": 0,
+                    "y": -31.5,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "bonesbomb150/位图 62",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -66.5,
+                    "skX": 0,
+                    "y": -63.5,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "bonesbomb150/位图 63",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -75.5,
+                    "skX": 0,
+                    "y": -69.5,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "bonesbomb150/位图 64",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -54.5,
+                    "skX": 0,
+                    "y": -53,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "bonesbomb150/位图 65",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": -54.5,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": -56.5,
+                    "skY": 0
+                  },
+                  "name": "bonesbomb150/位图 66",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -51,
+                    "skX": 0,
+                    "y": -54,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "bonesbomb150/位图 67",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 3"
+            }
+          ],
+          "name": "default"
+        }
+      ],
+      "name": "bonesBlastOut150",
+      "bone": [
+        {
+          "transform": {
+            "scY": 1.987961,
+            "x": 20.2,
+            "skX": 0,
+            "scX": 1.987961,
+            "y": 1.7,
+            "skY": 0
+          },
+          "name": "图层 5"
+        },
+        {
+          "transform": {
+            "scY": 1.261292,
+            "x": 80.55,
+            "skX": 0,
+            "scX": 1.261292,
+            "y": -2.7,
+            "skY": 0
+          },
+          "name": "图层 4"
+        },
+        {
+          "transform": {
+            "scY": 1.987961,
+            "x": -42.8,
+            "skX": 0,
+            "scX": 1.987961,
+            "y": -41.7,
+            "skY": 0
+          },
+          "name": "图层 3"
+        }
+      ],
+      "animation": [
+        {
+          "name": "default",
+          "scale": 1,
+          "loop": 1,
+          "fadeInTime": 0,
+          "duration": 34,
+          "timeline": [
+            {
+              "name": "图层 5",
+              "scale": 1,
+              "frame": [
+                {
+                  "duration": 1,
+                  "displayIndex": -1
+                },
+                {
+                  "transform": {
+                    "x": 20.2,
+                    "skX": 0,
+                    "y": 1.7,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.987961,
+                    "skY": 0,
+                    "scY": 1.987961
+                  },
+                  "z": 0,
+                  "duration": 2
+                },
+                {
+                  "duration": 2,
+                  "z": 0,
+                  "displayIndex": 1,
+                  "transform": {
+                    "x": 16.7,
+                    "skX": 0,
+                    "y": 9.75,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.987961,
+                    "skY": 0,
+                    "scY": 1.987961
+                  }
+                },
+                {
+                  "duration": 2,
+                  "z": 0,
+                  "displayIndex": 2,
+                  "transform": {
+                    "x": 19.35,
+                    "skX": 0,
+                    "y": 5.6,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.987961,
+                    "skY": 0,
+                    "scY": 1.987961
+                  }
+                },
+                {
+                  "duration": 2,
+                  "z": 0,
+                  "displayIndex": 3,
+                  "transform": {
+                    "x": 29.6,
+                    "skX": 0,
+                    "y": 0.5,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.987961,
+                    "skY": 0,
+                    "scY": 1.987961
+                  }
+                },
+                {
+                  "duration": 2,
+                  "z": 0,
+                  "displayIndex": 4,
+                  "transform": {
+                    "x": 28.6,
+                    "skX": 0,
+                    "y": -0.65,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.987961,
+                    "skY": 0,
+                    "scY": 1.987961
+                  }
+                },
+                {
+                  "duration": 2,
+                  "z": 0,
+                  "displayIndex": 5,
+                  "transform": {
+                    "x": 31.75,
+                    "skX": 0,
+                    "y": -4.2,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.987961,
+                    "skY": 0,
+                    "scY": 1.987961
+                  }
+                },
+                {
+                  "duration": 2,
+                  "z": 0,
+                  "displayIndex": 6,
+                  "transform": {
+                    "x": 24.55,
+                    "skX": 0,
+                    "y": -3.6,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.987961,
+                    "skY": 0,
+                    "scY": 1.987961
+                  }
+                },
+                {
+                  "duration": 19,
+                  "displayIndex": -1
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 4",
+              "scale": 1,
+              "frame": [
+                {
+                  "duration": 2,
+                  "displayIndex": -1
+                },
+                {
+                  "transform": {
+                    "x": 80.55,
+                    "skX": 0,
+                    "y": -2.7,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.261292,
+                    "skY": 0,
+                    "scY": 1.261292
+                  },
+                  "z": 1,
+                  "duration": 2
+                },
+                {
+                  "duration": 2,
+                  "z": 1,
+                  "displayIndex": 1,
+                  "transform": {
+                    "x": 78.3,
+                    "skX": 0,
+                    "y": 2.5,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.261292,
+                    "skY": 0,
+                    "scY": 1.261292
+                  }
+                },
+                {
+                  "duration": 2,
+                  "z": 1,
+                  "displayIndex": 2,
+                  "transform": {
+                    "x": 79.95,
+                    "skX": 0,
+                    "y": -0.2,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.261292,
+                    "skY": 0,
+                    "scY": 1.261292
+                  }
+                },
+                {
+                  "duration": 2,
+                  "z": 1,
+                  "displayIndex": 3,
+                  "transform": {
+                    "x": 86.5,
+                    "skX": 0,
+                    "y": -3.4,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.261292,
+                    "skY": 0,
+                    "scY": 1.261292
+                  }
+                },
+                {
+                  "duration": 2,
+                  "z": 1,
+                  "displayIndex": 4,
+                  "transform": {
+                    "x": 85.9,
+                    "skX": 0,
+                    "y": -4.2,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.261292,
+                    "skY": 0,
+                    "scY": 1.261292
+                  }
+                },
+                {
+                  "duration": 2,
+                  "z": 1,
+                  "displayIndex": 5,
+                  "transform": {
+                    "x": 87.9,
+                    "skX": 0,
+                    "y": -6.45,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.261292,
+                    "skY": 0,
+                    "scY": 1.261292
+                  }
+                },
+                {
+                  "duration": 2,
+                  "z": 1,
+                  "displayIndex": 6,
+                  "transform": {
+                    "x": 83.3,
+                    "skX": 0,
+                    "y": -6,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.261292,
+                    "skY": 0,
+                    "scY": 1.261292
+                  }
+                },
+                {
+                  "duration": 18,
+                  "displayIndex": -1
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 3",
+              "scale": 1,
+              "frame": [
+                {
+                  "duration": 4,
+                  "displayIndex": -1
+                },
+                {
+                  "transform": {
+                    "x": -42.8,
+                    "skX": 0,
+                    "y": -41.7,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.987961,
+                    "skY": 0,
+                    "scY": 1.987961
+                  },
+                  "z": 2,
+                  "duration": 2
+                },
+                {
+                  "duration": 2,
+                  "z": 2,
+                  "displayIndex": 1,
+                  "transform": {
+                    "x": -46.3,
+                    "skX": 0,
+                    "y": -33.65,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.987961,
+                    "skY": 0,
+                    "scY": 1.987961
+                  }
+                },
+                {
+                  "duration": 2,
+                  "z": 2,
+                  "displayIndex": 2,
+                  "transform": {
+                    "x": -43.65,
+                    "skX": 0,
+                    "y": -37.8,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.987961,
+                    "skY": 0,
+                    "scY": 1.987961
+                  }
+                },
+                {
+                  "duration": 2,
+                  "z": 2,
+                  "displayIndex": 3,
+                  "transform": {
+                    "x": -33.4,
+                    "skX": 0,
+                    "y": -42.9,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.987961,
+                    "skY": 0,
+                    "scY": 1.987961
+                  }
+                },
+                {
+                  "duration": 2,
+                  "z": 2,
+                  "displayIndex": 4,
+                  "transform": {
+                    "x": -34.4,
+                    "skX": 0,
+                    "y": -44.05,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.987961,
+                    "skY": 0,
+                    "scY": 1.987961
+                  }
+                },
+                {
+                  "duration": 2,
+                  "z": 2,
+                  "displayIndex": 5,
+                  "transform": {
+                    "x": -31.25,
+                    "skX": 0,
+                    "y": -47.6,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.987961,
+                    "skY": 0,
+                    "scY": 1.987961
+                  }
+                },
+                {
+                  "duration": 18,
+                  "displayIndex": -1
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "autoTween": 0,
+          "tweenEasing": null
+        }
+      ]
+    }
+  ],
+  "name": "bonesBlastOut150",
+  "version": 2.3
+}

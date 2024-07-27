@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:e580035e60e21739c3e3c2f0c5e06ae1:1/1$ -->
+<TextureAtlas imagePath="blastOut150.png">
+    <SubTexture name="bonesbomb150/位图 62" x="2" y="2" width="56" height="51" frameX="-4" frameY="-3" frameWidth="62" frameHeight="63"/>
+    <SubTexture name="bonesbomb150/位图 63" x="2" y="92" width="117" height="113" frameX="-8" frameY="-6" frameWidth="133" frameHeight="127"/>
+    <SubTexture name="bonesbomb150/位图 64" x="121" y="100" width="131" height="125" frameX="-6" frameY="-9" frameWidth="151" frameHeight="139"/>
+    <SubTexture name="bonesbomb150/位图 65" x="146" y="2" width="97" height="96" frameX="-5" frameY="-3" frameWidth="109" frameHeight="106"/>
+    <SubTexture name="bonesbomb150/位图 67" x="60" y="2" width="84" height="88" frameX="-6" frameY="-9" frameWidth="102" frameHeight="108"/>
+</TextureAtlas>
