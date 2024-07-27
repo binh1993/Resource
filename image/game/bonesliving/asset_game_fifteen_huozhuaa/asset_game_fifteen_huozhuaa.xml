@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:a920ae31fac2f9c0a6dde9ee6648114e:1/1$ -->
+<TextureAtlas imagePath="asset_game_fifteen_huozhuaaaa.png">
+    <SubTexture name="ffetggg/bz0002.png" x="234" y="2" width="226" height="214" frameX="-9" frameY="-4" frameWidth="244" frameHeight="244"/>
+    <SubTexture name="ffetggg/bz0003.png" x="2" y="2" width="230" height="218" frameX="-6" frameY="-11" frameWidth="244" frameHeight="244"/>
+    <SubTexture name="ffetggg/csasfv_1.png" x="123" y="222" width="107" height="70"/>
+    <SubTexture name="ffetggg/csasfv_2.png" x="230" y="307" width="118" height="86"/>
+    <SubTexture name="ffetggg/csasfv_3.png" x="356" y="218" width="120" height="87"/>
+    <SubTexture name="ffetggg/csasfv_4.png" x="234" y="218" width="120" height="87"/>
+    <SubTexture name="ffetggg/csasfv_5.png" x="350" y="307" width="115" height="86"/>
+    <SubTexture name="ffetggg/ffessf_1.png" x="123" y="294" width="105" height="147"/>
+    <SubTexture name="ffetggg/ffessf_2.png" x="230" y="395" width="105" height="143" frameX="0" frameY="-4" frameWidth="105" frameHeight="147"/>
+    <SubTexture name="ffetggg/ffessf_3.png" x="337" y="395" width="101" height="139" frameX="-4" frameY="-8" frameWidth="105" frameHeight="147"/>
+    <SubTexture name="ffetggg/ffessf_4.png" x="123" y="443" width="105" height="141" frameX="0" frameY="-6" frameWidth="105" frameHeight="147"/>
+    <SubTexture name="ffetggg/ffessf_5.png" x="2" y="461" width="103" height="139" frameX="0" frameY="-8" frameWidth="105" frameHeight="147"/>
+    <SubTexture name="ffetggg/grijhghdfhd" x="2" y="343" width="119" height="116"/>
+    <SubTexture name="ffetggg/monster_yanmo_boss_Attack1_EF_gju" x="440" y="395" width="64" height="62" frameX="0" frameY="0" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="ffetggg/vcxvbfbf" x="2" y="222" width="119" height="119"/>
+</TextureAtlas>

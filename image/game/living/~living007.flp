@@ -1,0 +1,11 @@
+﻿<flash_project name="~Living007" version="1">
+	<project_file path="./~Living007.fla" filetype="fla" profile="" def_file="true"/>
+	<project_file path="./road/game/resource/ActionMovieEvent.as" filetype="as"/>
+	<project_file path="./Sound069.as" filetype="as"/>
+	<project_file path="./Living007_fla/Timeline_3.as" filetype="as"/>
+	<project_file path="./Living007_fla/Timeline_5.as" filetype="as"/>
+	<project_file path="./Living007_fla/Timeline_6.as" filetype="as"/>
+	<project_file path="./Living007_fla/born_7.as" filetype="as"/>
+	<project_file path="./road/game/resource/ActionMovie.as" filetype="as"/>
+	<project_file path="./game/living/Living007.as" filetype="as"/>
+</flash_project>

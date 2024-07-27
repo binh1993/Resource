@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:153ad934f48d08ba732b8a1c463c9bb7:9b99bec45c09fcbdb9a175000076f495:85c6b4225909e21e0a2ad7db807e469d$ -->
+<TextureAtlas imagePath="asset_game_nine_diancipao.png">
+    <SubTexture name="gameNineDiancipaoRes/d20001" x="269" y="852" width="183" height="202" frameX="-111" frameY="-56" frameWidth="365" frameHeight="302"/>
+    <SubTexture name="gameNineDiancipaoRes/d20002.png" x="2" y="574" width="271" height="192" frameX="-63" frameY="-60" frameWidth="365" frameHeight="302"/>
+    <SubTexture name="gameNineDiancipaoRes/d20003" x="704" y="524" width="311" height="242" frameX="-48" frameY="-31" frameWidth="365" frameHeight="302"/>
+    <SubTexture name="gameNineDiancipaoRes/d20004.png" x="2" y="302" width="325" height="270" frameX="-31" frameY="-19" frameWidth="365" frameHeight="302"/>
+    <SubTexture name="gameNineDiancipaoRes/d20005" x="369" y="298" width="333" height="278" frameX="-17" frameY="-15" frameWidth="365" frameHeight="302"/>
+    <SubTexture name="gameNineDiancipaoRes/d20006" x="369" y="2" width="363" height="294" frameX="-2" frameY="0" frameWidth="365" frameHeight="302"/>
+    <SubTexture name="gameNineDiancipaoRes/d20007" x="2" y="2" width="365" height="298" frameX="0" frameY="0" frameWidth="365" frameHeight="302"/>
+    <SubTexture name="gameNineDiancipaoRes/d20008" x="275" y="578" width="265" height="272" frameX="-66" frameY="-19" frameWidth="365" frameHeight="302"/>
+    <SubTexture name="gameNineDiancipaoRes/d20009" x="2" y="768" width="265" height="252" frameX="-68" frameY="-45" frameWidth="365" frameHeight="302"/>
+    <SubTexture name="gameNineDiancipaoRes/d20010" x="734" y="264" width="275" height="258" frameX="-64" frameY="-37" frameWidth="365" frameHeight="302"/>
+    <SubTexture name="gameNineDiancipaoRes/d20012" x="2" y="1022" width="179" height="182" frameX="-116" frameY="-74" frameWidth="365" frameHeight="302"/>
+    <SubTexture name="gameNineDiancipaoRes/d20013" x="542" y="768" width="201" height="190" frameX="-106" frameY="-74" frameWidth="365" frameHeight="302"/>
+    <SubTexture name="gameNineDiancipaoRes/d20014" x="745" y="768" width="161" height="156" frameX="-114" frameY="-74" frameWidth="365" frameHeight="302"/>
+    <SubTexture name="gameNineDiancipaoRes/hgjdg" x="734" y="2" width="279" height="260" frameX="-64" frameY="-35" frameWidth="365" frameHeight="302"/>
+</TextureAtlas>

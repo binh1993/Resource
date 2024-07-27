@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:36ebe757a39204b38b9a5487fd9f2b11:1/1$ -->
+<TextureAtlas imagePath="asset_game_seven_du.png">
+    <SubTexture name="game_seven_dures/0_10001.png" x="2" y="550" width="362" height="83" frameX="-6" frameY="-18" frameWidth="378" frameHeight="111"/>
+    <SubTexture name="game_seven_dures/0_10003.png" x="2" y="461" width="364" height="87" frameX="-6" frameY="-15" frameWidth="378" frameHeight="111"/>
+    <SubTexture name="game_seven_dures/0_10005.png" x="2" y="281" width="366" height="89" frameX="-4" frameY="-13" frameWidth="378" frameHeight="111"/>
+    <SubTexture name="game_seven_dures/0_10007.png" x="2" y="372" width="364" height="87" frameX="-5" frameY="-15" frameWidth="378" frameHeight="111"/>
+    <SubTexture name="game_seven_dures/0_10009.png" x="2" y="190" width="366" height="89" frameX="-3" frameY="-12" frameWidth="378" frameHeight="111"/>
+    <SubTexture name="game_seven_dures/0_10011.png" x="2" y="97" width="366" height="91" frameX="-2" frameY="-10" frameWidth="378" frameHeight="111"/>
+    <SubTexture name="game_seven_dures/0_10013.png" x="2" y="2" width="366" height="93" frameX="-2" frameY="-8" frameWidth="378" frameHeight="111"/>
+</TextureAtlas>

@@ -1,0 +1,1573 @@
+{
+  "frameRate": 24,
+  "armature": [
+    {
+      "name": "asset_game_fifteen_huozhuaa",
+      "bone": [
+        {
+          "transform": {
+            "scY": 1,
+            "x": -5,
+            "skX": 0,
+            "scX": -1,
+            "y": 110.1,
+            "skY": 0
+          },
+          "name": "图层 1"
+        }
+      ],
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "图层 1",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": -3.35,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 250.8,
+                    "skY": 0
+                  },
+                  "name": "ffetggg/beat11",
+                  "type": "armature"
+                },
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": -3.35,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 250.8,
+                    "skY": 0
+                  },
+                  "name": "ffetggg/stand11",
+                  "type": "armature"
+                }
+              ],
+              "parent": "图层 1"
+            }
+          ],
+          "name": "default"
+        }
+      ],
+      "animation": [
+        {
+          "name": "beat",
+          "duration": 17,
+          "scale": 1,
+          "loop": 1,
+          "fadeInTime": 0,
+          "timeline": [
+            {
+              "name": "图层 1",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": -5,
+                    "skX": 0,
+                    "y": 110.1,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": -1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "z": 0,
+                  "duration": 16
+                },
+                {
+                  "duration": 1,
+                  "displayIndex": -1
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "autoTween": 0,
+          "tweenEasing": null
+        },
+        {
+          "name": "stand",
+          "duration": 10,
+          "scale": 1,
+          "loop": 1,
+          "fadeInTime": 0,
+          "timeline": [
+            {
+              "name": "图层 1",
+              "scale": 1,
+              "frame": [
+                {
+                  "z": 0,
+                  "duration": 10,
+                  "displayIndex": 1,
+                  "transform": {
+                    "x": -14,
+                    "skX": 0,
+                    "y": 112.1,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": -1,
+                    "skY": 0,
+                    "scY": 1
+                  }
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "autoTween": 1,
+          "tweenEasing": null
+        }
+      ]
+    },
+    {
+      "name": "ffetggg/beat11",
+      "bone": [
+        {
+          "transform": {
+            "scY": 1.257446,
+            "x": -7,
+            "skX": 90,
+            "scX": 1.781677,
+            "y": -301.4,
+            "skY": 90
+          },
+          "name": "火炬2"
+        },
+        {
+          "transform": {
+            "scY": 0.710876,
+            "x": -8.15,
+            "skX": 92.44,
+            "scX": 0.38327,
+            "y": -47.35,
+            "skY": 92.44
+          },
+          "name": "图层 7"
+        },
+        {
+          "transform": {
+            "scY": 1.568237,
+            "x": 0.25,
+            "skX": -8.5,
+            "scX": -1.606323,
+            "y": -51.45,
+            "skY": -8.5
+          },
+          "name": "图层 9"
+        },
+        {
+          "transform": {
+            "scY": 0.571518,
+            "x": -3.45,
+            "skX": 0,
+            "scX": 0.571518,
+            "y": -360.3,
+            "skY": 0
+          },
+          "name": "图层 13"
+        }
+      ],
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "火炬2",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "x": -0.25,
+                    "skX": 0,
+                    "y": 0,
+                    "pX": 32,
+                    "pY": 32,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "ffetggg/monster_yanmo_boss_Attack1_EF_gju",
+                  "type": "image"
+                }
+              ],
+              "parent": "火炬2"
+            },
+            {
+              "name": "图层 7",
+              "z": 1,
+              "display": [
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 5.3,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": -13,
+                    "skY": 0
+                  },
+                  "name": "ffetggg/f33333",
+                  "type": "armature"
+                }
+              ],
+              "parent": "图层 7"
+            },
+            {
+              "name": "图层 9",
+              "z": 2,
+              "display": [
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": -3,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 14,
+                    "skY": 0
+                  },
+                  "name": "ffetggg/bigfire",
+                  "type": "armature"
+                }
+              ],
+              "parent": "图层 9"
+            },
+            {
+              "name": "图层 13",
+              "z": 3,
+              "display": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "y": 0,
+                    "pX": 60,
+                    "pY": 60.4,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "ffetggg/grijhghdfhd",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 13"
+            }
+          ],
+          "name": "default"
+        }
+      ],
+      "animation": [
+        {
+          "name": "grfgggg",
+          "duration": 19,
+          "scale": 1,
+          "loop": 1,
+          "fadeInTime": 0,
+          "timeline": [
+            {
+              "name": "火炬2",
+              "scale": 1,
+              "frame": [
+                {
+                  "z": 0,
+                  "duration": 2,
+                  "transform": {
+                    "x": -7,
+                    "skX": 90,
+                    "y": -301.4,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.781677,
+                    "skY": 90,
+                    "scY": 1.257446
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 42,
+                    "bO": 0,
+                    "aM": 100,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 0,
+                  "duration": 1,
+                  "transform": {
+                    "x": -7,
+                    "skX": 90,
+                    "y": -195.6,
+                    "pX": -0.05,
+                    "pY": 0,
+                    "scX": 4.930084,
+                    "skY": 90,
+                    "scY": 1.78006
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 42,
+                    "bO": 0,
+                    "aM": 100,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  }
+                },
+                {
+                  "z": 0,
+                  "duration": 1,
+                  "transform": {
+                    "x": -7,
+                    "skX": 90,
+                    "y": -199.95,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 4.930084,
+                    "skY": 90,
+                    "scY": 2.092636
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 42,
+                    "bO": 0,
+                    "aM": 100,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  }
+                },
+                {
+                  "z": 0,
+                  "duration": 1,
+                  "transform": {
+                    "x": -7,
+                    "skX": 90,
+                    "y": -195.6,
+                    "pX": -0.05,
+                    "pY": 0,
+                    "scX": 4.930084,
+                    "skY": 90,
+                    "scY": 2.007629
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 42,
+                    "bO": 0,
+                    "aM": 100,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  }
+                },
+                {
+                  "z": 0,
+                  "duration": 1,
+                  "transform": {
+                    "x": -7,
+                    "skX": 90,
+                    "y": -199.95,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 4.930084,
+                    "skY": 90,
+                    "scY": 2.092636
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 42,
+                    "bO": 0,
+                    "aM": 100,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  }
+                },
+                {
+                  "z": 0,
+                  "duration": 1,
+                  "transform": {
+                    "x": -7,
+                    "skX": 90,
+                    "y": -195.6,
+                    "pX": -0.05,
+                    "pY": 0,
+                    "scX": 4.930084,
+                    "skY": 90,
+                    "scY": 2.007629
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 42,
+                    "bO": 0,
+                    "aM": 100,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  }
+                },
+                {
+                  "z": 0,
+                  "duration": 1,
+                  "transform": {
+                    "x": -7,
+                    "skX": 90,
+                    "y": -199.95,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 4.930084,
+                    "skY": 90,
+                    "scY": 2.092636
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 42,
+                    "bO": 0,
+                    "aM": 100,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  }
+                },
+                {
+                  "z": 0,
+                  "duration": 1,
+                  "transform": {
+                    "x": -7,
+                    "skX": 90,
+                    "y": -195.6,
+                    "pX": -0.05,
+                    "pY": 0,
+                    "scX": 4.930084,
+                    "skY": 90,
+                    "scY": 2.007629
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 42,
+                    "bO": 0,
+                    "aM": 100,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  }
+                },
+                {
+                  "z": 0,
+                  "duration": 1,
+                  "transform": {
+                    "x": -7,
+                    "skX": 90,
+                    "y": -199.95,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 4.930084,
+                    "skY": 90,
+                    "scY": 2.092636
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 42,
+                    "bO": 0,
+                    "aM": 100,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  }
+                },
+                {
+                  "z": 0,
+                  "duration": 4,
+                  "transform": {
+                    "x": -7,
+                    "skX": 90,
+                    "y": -195.6,
+                    "pX": -0.05,
+                    "pY": 0,
+                    "scX": 4.930084,
+                    "skY": 90,
+                    "scY": 2.092636
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 42,
+                    "bO": 0,
+                    "aM": 100,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 0,
+                  "duration": 1,
+                  "transform": {
+                    "x": -6.2,
+                    "skX": 90,
+                    "y": -195.6,
+                    "pX": -0.05,
+                    "pY": 0,
+                    "scX": 4.930084,
+                    "skY": 90,
+                    "scY": 0.86792
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 42,
+                    "bO": 0,
+                    "aM": 100,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  }
+                },
+                {
+                  "duration": 4,
+                  "displayIndex": -1
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 7",
+              "scale": 1,
+              "frame": [
+                {
+                  "duration": 3,
+                  "displayIndex": -1
+                },
+                {
+                  "z": 1,
+                  "duration": 12,
+                  "transform": {
+                    "x": -8.15,
+                    "skX": 92.44,
+                    "y": -47.35,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 0.38327,
+                    "skY": 92.44,
+                    "scY": 0.710876
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 0,
+                    "bO": 0,
+                    "aM": 82,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  }
+                },
+                {
+                  "duration": 4,
+                  "displayIndex": -1
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 9",
+              "scale": 1,
+              "frame": [
+                {
+                  "duration": 3,
+                  "displayIndex": -1
+                },
+                {
+                  "transform": {
+                    "x": 0.25,
+                    "skX": -8.5,
+                    "y": -51.45,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": -1.606323,
+                    "skY": -8.5,
+                    "scY": 1.568237
+                  },
+                  "z": 2,
+                  "duration": 12
+                },
+                {
+                  "duration": 4,
+                  "displayIndex": -1
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 13",
+              "scale": 1,
+              "frame": [
+                {
+                  "z": 3,
+                  "duration": 2,
+                  "transform": {
+                    "x": -3.45,
+                    "skX": 0,
+                    "y": -360.3,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 0.571518,
+                    "skY": 0,
+                    "scY": 0.571518
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "transform": {
+                    "x": -3.45,
+                    "skX": 0,
+                    "y": -360.3,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 0.950287,
+                    "skY": 0,
+                    "scY": 0.950287
+                  },
+                  "z": 3,
+                  "duration": 1
+                },
+                {
+                  "transform": {
+                    "x": -3.4,
+                    "skX": 0,
+                    "y": -360,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.19577,
+                    "skY": 0,
+                    "scY": 1.19577
+                  },
+                  "z": 3,
+                  "duration": 1
+                },
+                {
+                  "transform": {
+                    "x": -3.4,
+                    "skX": 0,
+                    "y": -360,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.086609,
+                    "skY": 0,
+                    "scY": 1.086609
+                  },
+                  "z": 3,
+                  "duration": 1
+                },
+                {
+                  "transform": {
+                    "x": -3.4,
+                    "skX": 0,
+                    "y": -360,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.19577,
+                    "skY": 0,
+                    "scY": 1.19577
+                  },
+                  "z": 3,
+                  "duration": 1
+                },
+                {
+                  "transform": {
+                    "x": -3.4,
+                    "skX": 0,
+                    "y": -360,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.086609,
+                    "skY": 0,
+                    "scY": 1.086609
+                  },
+                  "z": 3,
+                  "duration": 1
+                },
+                {
+                  "transform": {
+                    "x": -3.4,
+                    "skX": 0,
+                    "y": -360,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.19577,
+                    "skY": 0,
+                    "scY": 1.19577
+                  },
+                  "z": 3,
+                  "duration": 1
+                },
+                {
+                  "transform": {
+                    "x": -3.4,
+                    "skX": 0,
+                    "y": -360,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.086609,
+                    "skY": 0,
+                    "scY": 1.086609
+                  },
+                  "z": 3,
+                  "duration": 1
+                },
+                {
+                  "transform": {
+                    "x": -3.4,
+                    "skX": 0,
+                    "y": -360,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.19577,
+                    "skY": 0,
+                    "scY": 1.19577
+                  },
+                  "z": 3,
+                  "duration": 1
+                },
+                {
+                  "transform": {
+                    "x": -3.4,
+                    "skX": 0,
+                    "y": -360,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.086609,
+                    "skY": 0,
+                    "scY": 1.086609
+                  },
+                  "z": 3,
+                  "duration": 1
+                },
+                {
+                  "transform": {
+                    "x": -3.4,
+                    "skX": 0,
+                    "y": -360,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.19577,
+                    "skY": 0,
+                    "scY": 1.19577
+                  },
+                  "z": 3,
+                  "duration": 1
+                },
+                {
+                  "transform": {
+                    "x": -3.4,
+                    "skX": 0,
+                    "y": -360,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 0.917191,
+                    "skY": 0,
+                    "scY": 0.917191
+                  },
+                  "z": 3,
+                  "duration": 1
+                },
+                {
+                  "transform": {
+                    "x": -3.4,
+                    "skX": 0,
+                    "y": -360,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 0.822861,
+                    "skY": 0,
+                    "scY": 0.822861
+                  },
+                  "z": 3,
+                  "duration": 1
+                },
+                {
+                  "transform": {
+                    "x": -3.4,
+                    "skX": 0,
+                    "y": -360,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 0.542389,
+                    "skY": 0,
+                    "scY": 0.542389
+                  },
+                  "z": 3,
+                  "duration": 1
+                },
+                {
+                  "duration": 4,
+                  "displayIndex": -1
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "autoTween": 0,
+          "tweenEasing": null
+        }
+      ]
+    },
+    {
+      "name": "ffetggg/stand11",
+      "bone": [
+        {
+          "transform": {
+            "scY": 0.761261,
+            "x": -13.05,
+            "skX": -175.03,
+            "scX": 0.943054,
+            "y": -338.95,
+            "skY": -175.03
+          },
+          "name": "图层 7"
+        },
+        {
+          "transform": {
+            "scY": 0.714493,
+            "x": -10.95,
+            "skX": 0,
+            "scX": 0.714493,
+            "y": -361.4,
+            "skY": 0
+          },
+          "name": "图层 4"
+        },
+        {
+          "transform": {
+            "scY": 0.714493,
+            "x": -10.95,
+            "skX": 0,
+            "scX": 0.714493,
+            "y": -361.4,
+            "skY": 0
+          },
+          "name": "图层 2"
+        }
+      ],
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "图层 7",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 3.1,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 33.35,
+                    "skY": 0
+                  },
+                  "name": "ffetggg/tygggg",
+                  "type": "armature"
+                }
+              ],
+              "parent": "图层 7"
+            },
+            {
+              "name": "图层 4",
+              "z": 1,
+              "display": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "y": 0,
+                    "pX": 59.5,
+                    "pY": 59.5,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "ffetggg/vcxvbfbf",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 4"
+            },
+            {
+              "name": "图层 2",
+              "z": 2,
+              "display": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "y": 0,
+                    "pX": 59.5,
+                    "pY": 59.5,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "ffetggg/vcxvbfbf",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 2"
+            }
+          ],
+          "name": "default"
+        }
+      ],
+      "animation": [
+        {
+          "name": "jfgrg",
+          "duration": 10,
+          "scale": 1,
+          "loop": 0,
+          "fadeInTime": 0,
+          "timeline": [
+            {
+              "name": "图层 7",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": -13.05,
+                    "skX": -175.03,
+                    "y": -338.95,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 0.943054,
+                    "skY": -175.03,
+                    "scY": 0.761261
+                  },
+                  "z": 0,
+                  "duration": 10
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 4",
+              "scale": 1,
+              "frame": [
+                {
+                  "duration": 5,
+                  "displayIndex": -1
+                },
+                {
+                  "z": 1,
+                  "duration": 4,
+                  "transform": {
+                    "x": -10.95,
+                    "skX": 0,
+                    "y": -361.4,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 0.714493,
+                    "skY": 0,
+                    "scY": 0.714493
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 1,
+                  "transform": {
+                    "x": -10.95,
+                    "skX": 0,
+                    "y": -361.4,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.067444,
+                    "skY": 0,
+                    "scY": 1.067444
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 0,
+                    "bO": 0,
+                    "aM": 23,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  }
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 2",
+              "scale": 1,
+              "frame": [
+                {
+                  "z": 2,
+                  "duration": 5,
+                  "transform": {
+                    "x": -10.95,
+                    "skX": 0,
+                    "y": -361.4,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 0.714493,
+                    "skY": 0,
+                    "scY": 0.714493
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 2,
+                  "duration": 1,
+                  "transform": {
+                    "x": -10.95,
+                    "skX": 0,
+                    "y": -361.4,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.067444,
+                    "skY": 0,
+                    "scY": 1.067444
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 0,
+                    "bO": 0,
+                    "aM": 51,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  }
+                },
+                {
+                  "duration": 4,
+                  "displayIndex": -1
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "autoTween": 0,
+          "tweenEasing": null
+        }
+      ]
+    },
+    {
+      "name": "ffetggg/f33333",
+      "bone": [
+        {
+          "transform": {
+            "scY": 1,
+            "x": -5,
+            "skX": 0,
+            "scX": 1,
+            "y": 13,
+            "skY": 0
+          },
+          "name": "图层 1"
+        }
+      ],
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "图层 1",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "x": -122,
+                    "skX": 0,
+                    "y": -122,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "ffetggg/bz0002.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -122,
+                    "skX": 0,
+                    "y": -122,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "ffetggg/bz0003.png",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 1"
+            }
+          ],
+          "name": "default"
+        }
+      ],
+      "animation": [
+        {
+          "name": "hhjrrrr",
+          "duration": 3,
+          "scale": 1,
+          "loop": 0,
+          "fadeInTime": 0,
+          "timeline": [
+            {
+              "name": "图层 1",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": -5,
+                    "skX": 0,
+                    "y": 13,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "z": 0,
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "duration": 1,
+                  "displayIndex": 1,
+                  "transform": {
+                    "x": -5,
+                    "skX": 0,
+                    "y": 13,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  }
+                },
+                {
+                  "duration": 1,
+                  "displayIndex": -1
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "autoTween": 0,
+          "tweenEasing": null
+        }
+      ]
+    },
+    {
+      "name": "ffetggg/bigfire",
+      "bone": [
+        {
+          "transform": {
+            "scY": 1,
+            "x": 2.5,
+            "skX": 0,
+            "scX": 1,
+            "y": -22,
+            "skY": 0
+          },
+          "name": "图层 1"
+        }
+      ],
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "图层 1",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "x": -53.5,
+                    "skX": 0,
+                    "y": -35,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "ffetggg/csasfv_1.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -59,
+                    "skX": 0,
+                    "y": -43,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "ffetggg/csasfv_2.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -60,
+                    "skX": 0,
+                    "y": -43.5,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "ffetggg/csasfv_3.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -60,
+                    "skX": 0,
+                    "y": -43.5,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "ffetggg/csasfv_4.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -57.5,
+                    "skX": 0,
+                    "y": -43,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "ffetggg/csasfv_5.png",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 1"
+            }
+          ],
+          "name": "default"
+        }
+      ],
+      "animation": [
+        {
+          "name": "ghrrhhhh",
+          "duration": 5,
+          "scale": 1,
+          "loop": 0,
+          "fadeInTime": 0,
+          "timeline": [
+            {
+              "name": "图层 1",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": 2.5,
+                    "skX": 0,
+                    "y": -22,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "z": 0,
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "duration": 1,
+                  "displayIndex": 1,
+                  "transform": {
+                    "x": 2,
+                    "skX": 0,
+                    "y": -22,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  }
+                },
+                {
+                  "z": 0,
+                  "duration": 1,
+                  "displayIndex": 2,
+                  "transform": {
+                    "x": 6,
+                    "skX": 0,
+                    "y": -28.5,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  }
+                },
+                {
+                  "z": 0,
+                  "duration": 1,
+                  "displayIndex": 3,
+                  "transform": {
+                    "x": 3,
+                    "skX": 0,
+                    "y": -28.5,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  }
+                },
+                {
+                  "z": 0,
+                  "duration": 1,
+                  "displayIndex": 4,
+                  "transform": {
+                    "x": 8.5,
+                    "skX": 0,
+                    "y": -29,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  }
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "autoTween": 0,
+          "tweenEasing": null
+        }
+      ]
+    },
+    {
+      "name": "ffetggg/tygggg",
+      "bone": [
+        {
+          "transform": {
+            "scY": 1,
+            "x": -3,
+            "skX": 0,
+            "scX": 1,
+            "y": -33.45,
+            "skY": 0
+          },
+          "name": "图层 1"
+        }
+      ],
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "图层 1",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "x": -52.5,
+                    "skX": 0,
+                    "y": -73.5,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "ffetggg/ffessf_1.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -52.5,
+                    "skX": 0,
+                    "y": -73.5,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "ffetggg/ffessf_2.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -52.5,
+                    "skX": 0,
+                    "y": -73.5,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "ffetggg/ffessf_3.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -52.5,
+                    "skX": 0,
+                    "y": -73.5,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "ffetggg/ffessf_4.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -52.5,
+                    "skX": 0,
+                    "y": -73.5,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "ffetggg/ffessf_5.png",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 1"
+            }
+          ],
+          "name": "default"
+        }
+      ],
+      "animation": [
+        {
+          "name": "bhght",
+          "duration": 10,
+          "scale": 1,
+          "loop": 0,
+          "fadeInTime": 0,
+          "timeline": [
+            {
+              "name": "图层 1",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": -3,
+                    "skX": 0,
+                    "y": -33.45,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "z": 0,
+                  "duration": 2
+                },
+                {
+                  "z": 0,
+                  "duration": 2,
+                  "displayIndex": 1,
+                  "transform": {
+                    "x": -3,
+                    "skX": 0,
+                    "y": -33.45,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  }
+                },
+                {
+                  "z": 0,
+                  "duration": 2,
+                  "displayIndex": 2,
+                  "transform": {
+                    "x": -3,
+                    "skX": 0,
+                    "y": -33.45,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  }
+                },
+                {
+                  "z": 0,
+                  "duration": 2,
+                  "displayIndex": 3,
+                  "transform": {
+                    "x": -3,
+                    "skX": 0,
+                    "y": -33.45,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  }
+                },
+                {
+                  "z": 0,
+                  "duration": 2,
+                  "displayIndex": 4,
+                  "transform": {
+                    "x": -3,
+                    "skX": 0,
+                    "y": -33.45,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  }
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "autoTween": 0,
+          "tweenEasing": null
+        }
+      ]
+    }
+  ],
+  "name": "asset_game_fifteen_huozhuaa",
+  "version": 2.3
+}

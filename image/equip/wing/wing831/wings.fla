@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+
+
+<head>
+    <!-- Basic Page Needs================================================== -->
+    <meta charset="utf-8" />
+    <base href="http://crazy-tank.com/" />
+    <meta name="description" content="CrazyTank Webshop." />
+    <meta name="keywords" content="CrazyTank 2015" />
+    <meta name="author" content="CrazyTank 2015 Develop Team" />
+    <!-- Mobile Specific Metas================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link href="css/font-awesome.css" type="text/css" rel="stylesheet" />
+    <link href="css/978.css" type="text/css" rel="stylesheet" />
+    <link href="css/extend.css" type="text/css" rel="stylesheet" />
+    <link href="css/extend2.css" type="text/css" rel="stylesheet" />
+    <link href="css/responsive.css" type="text/css" rel="stylesheet" />
+    <link href="css/responsive_extend.css" type="text/css" rel="stylesheet" />
+    <link href="css/style_blur.css" type="text/css" rel="stylesheet" />
+    <link href="css/vgg.header.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/jpage_style.css" media="screen"/>
+    <!--[if IE 7]><link rel="stylesheet" href="/Styles/v2.0/styles/font-awesome_ie7.css"><![endif]-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--[if IE 8]><style>.tt-wrapper, .sub_slide {display: none;}.dg-wrapper {margin-top: 20px;margin-bottom: 20px;}</style><![endif]-->
+    <style>
+      #TB_overlay {
+        z-index: 997;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        background-color: #333333;
+        opacity: 0.85;
+    }
+</style>
+</head>
+
+<body>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-548ee4e94133e6b3" async="async"></script>
+
+
+  <div id="vgg_Header">
+      <div class="h_chung">
+          <div class="wrap">
+              <div class="c_header">
+                  <ul class="c_menu"><li><a href="http://s2.crazy-tank.com">CrazyTank S2</a></li><li><a href="http://crazy-tank.com/en">Play now!</a> 
+                  </li> <li><a href="http://crazy-tank.com">CrazyTank S1</a></li>  <li class="m_hiden"><a href="http://www.fb.com/CrazyTank2">Facebook Page</a></li>   </ul>  
+                  <a class="c_logo"  target="_blank" href="http://crazy-tank.com/go/login/">Login now</a>						                            <div class="row-end"></div>
+                      </div><div class="row-end"></div></div>
+					  
+                      <div class="c_line"></div></div></div>
+					  
+                      <div class="row-end"></div>					                        <div class="bg_left">
+                        <div class="top_menu">
+                            <div class="wrap">
+							
+                                <div class="col3 left0">
+                                    <a href="http://crazy-tank.com/go/home/" class="logo_id">
+                                        <img src="http://i.imgur.com/UnP5wQL.png?1">
+                                    </a>
+                                </div>
+                                <!--END col3-->
+                                <div class="col9">
+                                    <ul class="nd_top_menu">
+                                        <li class="cl-effect-13"><a href="http://s2.crazy-tank.com/en" target="_blank" id="billing_menu_news">Login now</a>
+										</li>
+										<li class="cl-effect-13"><a href="http://crazy-tank.com/en" target="_blank" id="billing_menu_news">S1</a>
+                                        </li>
+                                        <li class="cl-effect-13"><a href="http://s2.crazy-tank.com/en/rank/rank.htm" target="_blank" id="billing_menu_news">Ranking</a>
+                                        </li>
+                                        <li class="cl-effect-13"><a href="http://crazy-tank.com/go/home/" id="billing_menu_home">First Page</a>
+                                        </li>
+                                    </ul>
+                                    <!--END m_top_menu-->
+                                </div>
+                                <div class="row-end"></div>
+                            </div>
+                            <!--END wrap-->
+                            <div class="row-end"></div>
+                        </div>                        
+                </body>
+<!-- BEGIN FOOTER -->
+                <div class="footer"><a href="http://crazy-tank.com/go/Terms/">Terms of use</a><a href="http://crazy-tank.com/en">Play now!</a><a href="http://www.fb.com/groups/crazytankofficial">Facebook Group</a><a href="http://www.fb.com/CrazyTank2">Facebook Page</a><span class="textfooter">&copy;2014 CrazyTank All rights reserved.<br>
+                Have Suggestions? Contact us!<br>Website: <a target="_blank" href="http://crazy-tank.com/en">Click here</a> &ndash; Ranking: <a target="_blank" href="http://crazy-tank.com/en/rank/rank.htm">Click here</a> - Email <a href="mailto:crazytankofficial@gmail.com">crazytankofficial@gmail.com</a></span>                </div>
+                <div class="row-end"></div>
+                <!-- END FOOTER -->  
+                </html>
+				
+				
+				
+				
+				
+		
+
+				
+				
+				
+				

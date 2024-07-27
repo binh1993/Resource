@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:a0e7b5dea502132bb25c785be67f028b:1/1$ -->
+<TextureAtlas imagePath="game_living_Living473.png">
+    <SubTexture name="living472/123 2_0000.png" x="102" y="2" width="74" height="76" frameX="-14" frameY="-1" frameWidth="100" frameHeight="100"/>
+    <SubTexture name="living472/123 2_0001.png" x="92" y="104" width="98" height="98" frameX="0" frameY="-2" frameWidth="100" frameHeight="100"/>
+    <SubTexture name="living472/123 2_0002.png" x="2" y="104" width="88" height="100" frameX="-7" frameY="0" frameWidth="100" frameHeight="100"/>
+    <SubTexture name="living472/123 2_0003.png" x="2" y="2" width="98" height="100" frameX="-2" frameY="0" frameWidth="100" frameHeight="100"/>
+    <SubTexture name="living472/hurt" x="178" y="2" width="69" height="62"/>
+    <SubTexture name="living472/紫色小烟雾 2_0000.png" x="192" y="146" width="36" height="38"/>
+    <SubTexture name="living472/紫色小烟雾 2_0001.png" x="192" y="106" width="36" height="38"/>
+    <SubTexture name="living472/紫色小烟雾 2_0002.png" x="192" y="66" width="36" height="38"/>
+    <SubTexture name="living472/紫色小烟雾 2_0003.png" x="154" y="204" width="36" height="38"/>
+    <SubTexture name="living472/紫色小烟雾 2_0004.png" x="116" y="204" width="36" height="38"/>
+    <SubTexture name="living472/紫色小烟雾 2_0005.png" x="78" y="206" width="36" height="38"/>
+    <SubTexture name="living472/紫色小烟雾 2_0006.png" x="40" y="206" width="36" height="38"/>
+    <SubTexture name="living472/紫色小烟雾 2_0007.png" x="2" y="206" width="36" height="38"/>
+</TextureAtlas>

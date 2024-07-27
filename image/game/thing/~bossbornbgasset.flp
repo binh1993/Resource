@@ -1,0 +1,35 @@
+﻿<flash_project name="~BossBornBgAsset" version="1">
+	<project_file path="./~BossBornBgAsset.fla" filetype="fla" profile="" def_file="true"/>
+	<project_file path="./game/asset/living/AntQueenAsset.as" filetype="as"/>
+	<project_file path="./game/asset/living/BombKingAsset.as" filetype="as"/>
+	<project_file path="./game/asset/living/BossBgAsset.as" filetype="as"/>
+	<project_file path="./game/asset/living/ClanBrotherAsset.as" filetype="as"/>
+	<project_file path="./game/asset/living/ClanLeaderAsset.as" filetype="as"/>
+	<project_file path="./game/asset/living/ZhenBombKingAsset.as" filetype="as"/>
+	<project_file path="./game/asset/living/bogucaipanAsset.as" filetype="as"/>
+	<project_file path="./game/asset/living/boguoKingAsset.as" filetype="as"/>
+	<project_file path="./game/asset/living/boguoLeaderAsset.as" filetype="as"/>
+	<project_file path="./game/asset/living/boguquanwangAsset.as" filetype="as"/>
+	<project_file path="./game/asset/living/canbaoAsset.as" filetype="as"/>
+	<project_file path="./game/asset/living/chaoxinvwanggAsset.as" filetype="as"/>
+	<project_file path="./game/asset/living/choudanbenbenAsset.as" filetype="as"/>
+	<project_file path="./game/asset/living/dadangAsset.as" filetype="as"/>
+	<project_file path="./game/asset/living/ducaizheAsset.as" filetype="as"/>
+	<project_file path="./game/asset/living/emozhanshiAsset.as" filetype="as"/>
+	<project_file path="./game/asset/living/fengkuangAsset.as" filetype="as"/>
+	<project_file path="./game/asset/living/footballCaptainAsset.as" filetype="as"/>
+	<project_file path="./game/asset/living/gebulinzhihuiguanAsset.as" filetype="as"/>
+	<project_file path="./game/asset/living/hongpaoxiaoemoAsset.as" filetype="as"/>
+	<project_file path="./game/asset/living/jianjiaoAsset.as" filetype="as"/>
+	<project_file path="./game/asset/living/mingzhiAsset.as" filetype="as"/>
+	<project_file path="./game/asset/living/mvpKeeperAsset.as" filetype="as"/>
+	<project_file path="./game/asset/living/mvpPlayerAsset.as" filetype="as"/>
+	<project_file path="./game/asset/living/qiheibojueAsset.as" filetype="as"/>
+	<project_file path="./game/asset/living/shamozhiwangAsset.as" filetype="as"/>
+	<project_file path="./game/asset/living/shangxiaoAsset.as" filetype="as"/>
+	<project_file path="./game/asset/living/shikongAsset.as" filetype="as"/>
+	<project_file path="./game/asset/living/shuangwangAsset.as" filetype="as"/>
+	<project_file path="./game/asset/living/tingyuanlieshouAsset.as" filetype="as"/>
+	<project_file path="./game/asset/living/xieshenzhanshiAsset.as" filetype="as"/>
+	<project_file path="./game/asset/living/xieyanjulongAsset.as" filetype="as"/>
+</flash_project>

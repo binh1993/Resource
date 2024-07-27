@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:7f5f689f116c578c2f579d3ed14dea35:1/1$ -->
+<TextureAtlas imagePath="asset_game_fifteen_472c.png">
+    <SubTexture name="472C/1_00000.png" x="156" y="383" width="70" height="57" frameX="-17" frameY="-18" frameWidth="100" frameHeight="75"/>
+    <SubTexture name="472C/1_00001.png" x="108" y="442" width="96" height="67" frameX="0" frameY="-8" frameWidth="100" frameHeight="75"/>
+    <SubTexture name="472C/1_00002.png" x="377" y="73" width="96" height="71" frameX="-2" frameY="-4" frameWidth="100" frameHeight="75"/>
+    <SubTexture name="472C/1_00003.png" x="196" y="77" width="98" height="71" frameX="-1" frameY="-4" frameWidth="100" frameHeight="75"/>
+    <SubTexture name="472C/1_00004.png" x="377" y="2" width="98" height="69" frameX="-2" frameY="-6" frameWidth="100" frameHeight="75"/>
+    <SubTexture name="472C/1_00005.png" x="179" y="2" width="98" height="73" frameX="-2" frameY="-2" frameWidth="100" frameHeight="75"/>
+    <SubTexture name="472C/1_00006.png" x="279" y="2" width="96" height="71" frameX="-4" frameY="-4" frameWidth="100" frameHeight="75"/>
+    <SubTexture name="472C/1_00007.png" x="176" y="180" width="96" height="73" frameX="-4" frameY="-2" frameWidth="100" frameHeight="75"/>
+    <SubTexture name="472C/1_00008.png" x="156" y="308" width="96" height="73" frameX="-4" frameY="-2" frameWidth="100" frameHeight="75"/>
+    <SubTexture name="472C/1_00009.png" x="296" y="75" width="56" height="71" frameX="-26" frameY="-2" frameWidth="100" frameHeight="75"/>
+    <SubTexture name="472C/受击_00000.png" x="175" y="104" width="19" height="74" frameX="-10" frameY="0" frameWidth="37" frameHeight="100"/>
+    <SubTexture name="472C/受击_00001.png" x="153" y="206" width="21" height="100" frameX="-8" frameY="0" frameWidth="37" frameHeight="100"/>
+    <SubTexture name="472C/受击_00002.png" x="152" y="2" width="25" height="100" frameX="-6" frameY="0" frameWidth="37" frameHeight="100"/>
+    <SubTexture name="472C/受击_00004.png" x="124" y="234" width="27" height="100" frameX="-5" frameY="0" frameWidth="37" frameHeight="100"/>
+    <SubTexture name="472C/受击_00005.png" x="152" y="104" width="21" height="100" frameX="-11" frameY="0" frameWidth="37" frameHeight="100"/>
+    <SubTexture name="472C/闪电 2_0001.png" x="82" y="234" width="40" height="103" frameX="0" frameY="0" frameWidth="80" frameHeight="115"/>
+    <SubTexture name="472C/闪电 2_0003.png" x="108" y="339" width="46" height="101" frameX="0" frameY="-3" frameWidth="80" frameHeight="115"/>
+    <SubTexture name="472C/闪电 2_0005.png" x="82" y="2" width="68" height="113" frameX="0" frameY="0" frameWidth="80" frameHeight="115"/>
+    <SubTexture name="472C/闪电 2_0007.png" x="2" y="119" width="76" height="115" frameX="-1" frameY="0" frameWidth="80" frameHeight="115"/>
+    <SubTexture name="472C/闪电 2_0009.png" x="2" y="2" width="78" height="115" frameX="0" frameY="0" frameWidth="80" frameHeight="115"/>
+    <SubTexture name="472C/闪电 2_0011.png" x="2" y="236" width="78" height="113" frameX="0" frameY="-2" frameWidth="80" frameHeight="115"/>
+    <SubTexture name="472C/闪电 2_0013.png" x="80" y="119" width="70" height="113" frameX="-9" frameY="-2" frameWidth="80" frameHeight="115"/>
+    <SubTexture name="472C/闪电 2_0015.png" x="2" y="351" width="58" height="103" frameX="-18" frameY="-8" frameWidth="80" frameHeight="115"/>
+    <SubTexture name="472C/闪电 2_0017.png" x="62" y="351" width="44" height="103" frameX="-18" frameY="-9" frameWidth="80" frameHeight="115"/>
+    <SubTexture name="472C/闪电 2_0019.png" x="2" y="456" width="14" height="11" frameX="-48" frameY="-81" frameWidth="80" frameHeight="115"/>
+</TextureAtlas>

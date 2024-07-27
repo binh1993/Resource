@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:7880f13dccb5b15169ae52692fd8bde2:1/1$ -->
+<TextureAtlas imagePath="asset_game_fifteen_471a.png">
+    <SubTexture name="471a/位图 18" x="105" y="200" width="101" height="64" frameX="-3" frameY="-4" frameWidth="107" frameHeight="68"/>
+    <SubTexture name="471a/位图 19" x="2" y="200" width="101" height="64" frameX="-3" frameY="-4" frameWidth="107" frameHeight="68"/>
+    <SubTexture name="471a/位图 20" x="105" y="134" width="101" height="64" frameX="-3" frameY="-4" frameWidth="107" frameHeight="68"/>
+    <SubTexture name="471a/位图 21" x="2" y="134" width="101" height="64" frameX="-3" frameY="-4" frameWidth="107" frameHeight="68"/>
+    <SubTexture name="471a/位图 22" x="105" y="68" width="101" height="64" frameX="-3" frameY="-4" frameWidth="107" frameHeight="68"/>
+    <SubTexture name="471a/位图 23" x="2" y="68" width="101" height="64" frameX="-3" frameY="-4" frameWidth="107" frameHeight="68"/>
+    <SubTexture name="471a/位图 24" x="105" y="2" width="101" height="64" frameX="-3" frameY="-4" frameWidth="107" frameHeight="68"/>
+    <SubTexture name="471a/位图 25" x="2" y="2" width="101" height="64" frameX="-3" frameY="-4" frameWidth="107" frameHeight="68"/>
+</TextureAtlas>

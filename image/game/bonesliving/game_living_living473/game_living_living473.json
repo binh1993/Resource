@@ -1,0 +1,1269 @@
+{
+  "frameRate": 24,
+  "armature": [
+    {
+      "name": "game_living_Living473",
+      "bone": [
+        {
+          "transform": {
+            "scY": 1,
+            "x": -4.9,
+            "skX": 0,
+            "scX": 1,
+            "y": -105.15,
+            "skY": 0
+          },
+          "name": "图层 6"
+        }
+      ],
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "图层 6",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 0,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 0,
+                    "skY": 0
+                  },
+                  "name": "living472/stand",
+                  "type": "armature"
+                },
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 0,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 0,
+                    "skY": 0
+                  },
+                  "name": "living472/born",
+                  "type": "armature"
+                }
+              ],
+              "parent": "图层 6"
+            }
+          ],
+          "name": "default"
+        }
+      ],
+      "animation": [
+        {
+          "duration": 16,
+          "name": "stand",
+          "scale": 1,
+          "loop": 1,
+          "fadeInTime": 0,
+          "timeline": [
+            {
+              "name": "图层 6",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "pX": 0,
+                    "x": -4.9,
+                    "skX": 0,
+                    "y": -105.15,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "z": 0,
+                  "duration": 16
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "autoTween": 1,
+          "tweenEasing": null
+        },
+        {
+          "duration": 8,
+          "name": "born",
+          "scale": 1,
+          "loop": 1,
+          "frame": [
+            { "duration": 7 },
+            {
+              "duration": 1,
+              "event": "goto_stand"
+            }
+          ],
+          "tweenEasing": null,
+          "timeline": [
+            {
+              "name": "图层 6",
+              "scale": 1,
+              "frame": [
+                {
+                  "duration": 8,
+                  "z": 0,
+                  "displayIndex": 1,
+                  "transform": {
+                    "pX": 0,
+                    "x": -4.9,
+                    "skX": 0,
+                    "y": -105.15,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  }
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "autoTween": 0,
+          "fadeInTime": 0
+        }
+      ]
+    },
+    {
+      "name": "living472/stand",
+      "bone": [
+        {
+          "transform": {
+            "scY": 1,
+            "x": 7.8,
+            "skX": 0,
+            "scX": 1,
+            "y": 110.3,
+            "skY": 0
+          },
+          "name": "hurt"
+        },
+        {
+          "transform": {
+            "scY": 2.80835,
+            "x": 6.35,
+            "skX": -179.97,
+            "scX": 2.80835,
+            "y": -15,
+            "skY": -179.97
+          },
+          "name": "图层 4"
+        },
+        {
+          "transform": {
+            "scY": 3.429474,
+            "x": -7.25,
+            "skX": -51.46,
+            "scX": 3.429474,
+            "y": 59.4,
+            "skY": -51.46
+          },
+          "name": "图层 3"
+        }
+      ],
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "hurt",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "pX": 0,
+                    "x": -34.5,
+                    "skX": 0,
+                    "y": -31,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/hurt",
+                  "type": "image"
+                }
+              ],
+              "parent": "hurt"
+            },
+            {
+              "name": "图层 4",
+              "z": 1,
+              "display": [
+                {
+                  "transform": {
+                    "pX": 0,
+                    "x": -50,
+                    "skX": 0,
+                    "y": -50,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/123 2_0000.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "pX": 0,
+                    "x": -50,
+                    "skX": 0,
+                    "y": -50,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/123 2_0001.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "pX": 0,
+                    "x": -50,
+                    "skX": 0,
+                    "y": -50,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/123 2_0002.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "pX": 0,
+                    "x": -50,
+                    "skX": 0,
+                    "y": -50,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/123 2_0003.png",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 4"
+            },
+            {
+              "name": "图层 3",
+              "z": 2,
+              "display": [
+                {
+                  "transform": {
+                    "pX": 0,
+                    "x": -18,
+                    "skX": 0,
+                    "y": -19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/紫色小烟雾 2_0000.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "pX": 0,
+                    "x": -18,
+                    "skX": 0,
+                    "y": -19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/紫色小烟雾 2_0001.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "pX": 0,
+                    "x": -18,
+                    "skX": 0,
+                    "y": -19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/紫色小烟雾 2_0002.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "pX": 0,
+                    "x": -18,
+                    "skX": 0,
+                    "y": -19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/紫色小烟雾 2_0003.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "pX": 0,
+                    "x": -18,
+                    "skX": 0,
+                    "y": -19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/紫色小烟雾 2_0004.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "pX": 0,
+                    "x": -18,
+                    "skX": 0,
+                    "y": -19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/紫色小烟雾 2_0005.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "pX": 0,
+                    "x": -18,
+                    "skX": 0,
+                    "y": -19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/紫色小烟雾 2_0006.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "pX": 0,
+                    "x": -18,
+                    "skX": 0,
+                    "y": -19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/紫色小烟雾 2_0007.png",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 3"
+            }
+          ],
+          "name": "default"
+        }
+      ],
+      "animation": [
+        {
+          "duration": 12,
+          "name": "fdsggvrsfsf",
+          "scale": 1,
+          "loop": 0,
+          "fadeInTime": 0,
+          "timeline": [
+            {
+              "name": "hurt",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "pX": 0,
+                    "x": 7.8,
+                    "skX": 0,
+                    "y": 110.3,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "z": 0,
+                  "duration": 12
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 4",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "pX": 0,
+                    "x": 6.35,
+                    "skX": -179.97,
+                    "y": -15,
+                    "pY": 0,
+                    "scX": 2.80835,
+                    "skY": -179.97,
+                    "scY": 2.80835
+                  },
+                  "z": 1,
+                  "duration": 3
+                },
+                {
+                  "duration": 3,
+                  "z": 1,
+                  "displayIndex": 1,
+                  "transform": {
+                    "pX": 0,
+                    "x": 6.35,
+                    "skX": -179.97,
+                    "y": -15,
+                    "pY": 0,
+                    "scX": 2.80835,
+                    "skY": -179.97,
+                    "scY": 2.80835
+                  }
+                },
+                {
+                  "duration": 3,
+                  "z": 1,
+                  "displayIndex": 2,
+                  "transform": {
+                    "pX": 0,
+                    "x": 6.35,
+                    "skX": -179.97,
+                    "y": -15,
+                    "pY": 0,
+                    "scX": 2.80835,
+                    "skY": -179.97,
+                    "scY": 2.80835
+                  }
+                },
+                {
+                  "duration": 3,
+                  "z": 1,
+                  "displayIndex": 3,
+                  "transform": {
+                    "pX": 0,
+                    "x": 6.35,
+                    "skX": -179.97,
+                    "y": -15,
+                    "pY": 0,
+                    "scX": 2.80835,
+                    "skY": -179.97,
+                    "scY": 2.80835
+                  }
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 3",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "pX": 0,
+                    "x": -7.25,
+                    "skX": -51.46,
+                    "y": 59.4,
+                    "pY": 0,
+                    "scX": 3.429474,
+                    "skY": -51.46,
+                    "scY": 3.429474
+                  },
+                  "z": 2,
+                  "duration": 1
+                },
+                {
+                  "duration": 1,
+                  "z": 2,
+                  "displayIndex": 1,
+                  "transform": {
+                    "pX": 0,
+                    "x": -7.25,
+                    "skX": -51.46,
+                    "y": 59.4,
+                    "pY": 0,
+                    "scX": 3.429474,
+                    "skY": -51.46,
+                    "scY": 3.429474
+                  }
+                },
+                {
+                  "duration": 1,
+                  "z": 2,
+                  "displayIndex": 2,
+                  "transform": {
+                    "pX": 0,
+                    "x": -7.25,
+                    "skX": -51.46,
+                    "y": 59.4,
+                    "pY": 0,
+                    "scX": 3.429474,
+                    "skY": -51.46,
+                    "scY": 3.429474
+                  }
+                },
+                {
+                  "duration": 1,
+                  "z": 2,
+                  "displayIndex": 3,
+                  "transform": {
+                    "pX": 0,
+                    "x": -7.25,
+                    "skX": -51.46,
+                    "y": 59.4,
+                    "pY": 0,
+                    "scX": 3.429474,
+                    "skY": -51.46,
+                    "scY": 3.429474
+                  }
+                },
+                {
+                  "duration": 1,
+                  "z": 2,
+                  "displayIndex": 4,
+                  "transform": {
+                    "pX": 0,
+                    "x": -7.25,
+                    "skX": -51.46,
+                    "y": 59.4,
+                    "pY": 0,
+                    "scX": 3.429474,
+                    "skY": -51.46,
+                    "scY": 3.429474
+                  }
+                },
+                {
+                  "duration": 1,
+                  "z": 2,
+                  "displayIndex": 5,
+                  "transform": {
+                    "pX": 0,
+                    "x": -7.25,
+                    "skX": -51.46,
+                    "y": 59.4,
+                    "pY": 0,
+                    "scX": 3.429474,
+                    "skY": -51.46,
+                    "scY": 3.429474
+                  }
+                },
+                {
+                  "duration": 1,
+                  "z": 2,
+                  "displayIndex": 6,
+                  "transform": {
+                    "pX": 0,
+                    "x": -7.25,
+                    "skX": -51.46,
+                    "y": 59.4,
+                    "pY": 0,
+                    "scX": 3.429474,
+                    "skY": -51.46,
+                    "scY": 3.429474
+                  }
+                },
+                {
+                  "duration": 1,
+                  "z": 2,
+                  "displayIndex": 7,
+                  "transform": {
+                    "pX": 0,
+                    "x": -7.25,
+                    "skX": -51.46,
+                    "y": 59.4,
+                    "pY": 0,
+                    "scX": 3.429474,
+                    "skY": -51.46,
+                    "scY": 3.429474
+                  }
+                },
+                {
+                  "duration": 4,
+                  "displayIndex": -1
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "autoTween": 0,
+          "tweenEasing": null
+        }
+      ]
+    },
+    {
+      "name": "living472/born",
+      "bone": [
+        {
+          "transform": {
+            "scY": 1,
+            "x": 7.8,
+            "skX": 0,
+            "scX": 1,
+            "y": 110.3,
+            "skY": 0
+          },
+          "name": "hurt"
+        },
+        {
+          "transform": {
+            "scY": 0.560333,
+            "x": 5.85,
+            "skX": 176.55,
+            "scX": 0.972855,
+            "y": 103.7,
+            "skY": 176.55
+          },
+          "name": "元件 9"
+        },
+        {
+          "transform": {
+            "scY": 1.430557,
+            "x": 5.5,
+            "skX": -55.72,
+            "scX": 1.430557,
+            "y": 107.5,
+            "skY": -55.72
+          },
+          "name": "元件 1"
+        }
+      ],
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "hurt",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "pX": 0,
+                    "x": -34.5,
+                    "skX": 0,
+                    "y": -31,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/hurt",
+                  "type": "image"
+                }
+              ],
+              "parent": "hurt"
+            },
+            {
+              "name": "元件 9",
+              "z": 1,
+              "display": [
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": -2.2,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 28.7,
+                    "skY": 0
+                  },
+                  "name": "living472/gfsegggr",
+                  "type": "armature"
+                }
+              ],
+              "parent": "元件 9"
+            },
+            {
+              "name": "元件 1",
+              "z": 2,
+              "display": [
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 0,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 0,
+                    "skY": 0
+                  },
+                  "name": "living472/grdgdfsfe",
+                  "type": "armature"
+                }
+              ],
+              "parent": "元件 1"
+            }
+          ],
+          "name": "default"
+        }
+      ],
+      "animation": [
+        {
+          "duration": 9,
+          "name": "fdcbgss",
+          "scale": 1,
+          "loop": 1,
+          "fadeInTime": 0,
+          "timeline": [
+            {
+              "name": "hurt",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "pX": 0,
+                    "x": 7.8,
+                    "skX": 0,
+                    "y": 110.3,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "z": 0,
+                  "duration": 9
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "元件 9",
+              "scale": 1,
+              "frame": [
+                {
+                  "duration": 6,
+                  "z": 1,
+                  "transform": {
+                    "pX": 0,
+                    "x": 5.85,
+                    "skX": 176.55,
+                    "y": 103.7,
+                    "pY": 0,
+                    "scX": 0.972855,
+                    "skY": 176.55,
+                    "scY": 0.560333
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "transform": {
+                    "pX": 0.1,
+                    "x": 4.95,
+                    "skX": 176.55,
+                    "y": 92.6,
+                    "pY": -0.1,
+                    "scX": 2.051971,
+                    "skY": 176.55,
+                    "scY": 1.772675
+                  },
+                  "z": 1,
+                  "duration": 3
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "元件 1",
+              "scale": 1,
+              "frame": [
+                {
+                  "duration": 6,
+                  "z": 2,
+                  "transform": {
+                    "pX": 0,
+                    "x": 5.5,
+                    "skX": -55.72,
+                    "y": 107.5,
+                    "pY": 0,
+                    "scX": 1.430557,
+                    "skY": -55.72,
+                    "scY": 1.430557
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "transform": {
+                    "pX": 0,
+                    "x": 5.5,
+                    "skX": -55.72,
+                    "y": 107.5,
+                    "pY": 0,
+                    "scX": 3.305481,
+                    "skY": -55.72,
+                    "scY": 3.305481
+                  },
+                  "z": 2,
+                  "duration": 3
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "autoTween": 0,
+          "tweenEasing": null
+        }
+      ]
+    },
+    {
+      "name": "living472/gfsegggr",
+      "bone": [
+        {
+          "transform": {
+            "scY": 1.362778,
+            "x": 1.4,
+            "skX": -3.48,
+            "scX": 1.362778,
+            "y": 14.7,
+            "skY": -3.48
+          },
+          "name": "图层 2"
+        }
+      ],
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "图层 2",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "pX": 0,
+                    "x": -50,
+                    "skX": 0,
+                    "y": -50,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/123 2_0000.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "pX": 0,
+                    "x": -50,
+                    "skX": 0,
+                    "y": -50,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/123 2_0001.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "pX": 0,
+                    "x": -50,
+                    "skX": 0,
+                    "y": -50,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/123 2_0002.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "pX": 0,
+                    "x": -50,
+                    "skX": 0,
+                    "y": -50,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/123 2_0003.png",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 2"
+            }
+          ],
+          "name": "default"
+        }
+      ],
+      "animation": [
+        {
+          "duration": 12,
+          "name": "gfghdghdgrgdgd",
+          "scale": 1,
+          "loop": 0,
+          "fadeInTime": 0,
+          "timeline": [
+            {
+              "name": "图层 2",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "pX": 0,
+                    "x": 1.4,
+                    "skX": -3.48,
+                    "y": 14.7,
+                    "pY": 0,
+                    "scX": 1.362778,
+                    "skY": -3.48,
+                    "scY": 1.362778
+                  },
+                  "z": 0,
+                  "duration": 3
+                },
+                {
+                  "duration": 3,
+                  "z": 0,
+                  "displayIndex": 1,
+                  "transform": {
+                    "pX": 0,
+                    "x": 1.4,
+                    "skX": -3.48,
+                    "y": 14.7,
+                    "pY": 0,
+                    "scX": 1.362778,
+                    "skY": -3.48,
+                    "scY": 1.362778
+                  }
+                },
+                {
+                  "duration": 3,
+                  "z": 0,
+                  "displayIndex": 2,
+                  "transform": {
+                    "pX": 0,
+                    "x": 1.4,
+                    "skX": -3.48,
+                    "y": 14.7,
+                    "pY": 0,
+                    "scX": 1.362778,
+                    "skY": -3.48,
+                    "scY": 1.362778
+                  }
+                },
+                {
+                  "duration": 3,
+                  "z": 0,
+                  "displayIndex": 3,
+                  "transform": {
+                    "pX": 0,
+                    "x": 1.4,
+                    "skX": -3.48,
+                    "y": 14.7,
+                    "pY": 0,
+                    "scX": 1.362778,
+                    "skY": -3.48,
+                    "scY": 1.362778
+                  }
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "autoTween": 0,
+          "tweenEasing": null
+        }
+      ]
+    },
+    {
+      "name": "living472/grdgdfsfe",
+      "bone": [
+        {
+          "transform": {
+            "scY": 1,
+            "x": 9.15,
+            "skX": 0,
+            "scX": 1,
+            "y": -10.65,
+            "skY": 0
+          },
+          "name": "图层 1"
+        }
+      ],
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "图层 1",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "pX": 0,
+                    "x": -18,
+                    "skX": 0,
+                    "y": -19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/紫色小烟雾 2_0000.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "pX": 0,
+                    "x": -18,
+                    "skX": 0,
+                    "y": -19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/紫色小烟雾 2_0001.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "pX": 0,
+                    "x": -18,
+                    "skX": 0,
+                    "y": -19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/紫色小烟雾 2_0002.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "pX": 0,
+                    "x": -18,
+                    "skX": 0,
+                    "y": -19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/紫色小烟雾 2_0003.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "pX": 0,
+                    "x": -18,
+                    "skX": 0,
+                    "y": -19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/紫色小烟雾 2_0004.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "pX": 0,
+                    "x": -18,
+                    "skX": 0,
+                    "y": -19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/紫色小烟雾 2_0005.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "pX": 0,
+                    "x": -18,
+                    "skX": 0,
+                    "y": -19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/紫色小烟雾 2_0006.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "pX": 0,
+                    "x": -18,
+                    "skX": 0,
+                    "y": -19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/紫色小烟雾 2_0007.png",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 1"
+            }
+          ],
+          "name": "default"
+        }
+      ],
+      "animation": [
+        {
+          "duration": 8,
+          "name": "gfgdgsdf",
+          "scale": 1,
+          "loop": 0,
+          "fadeInTime": 0,
+          "timeline": [
+            {
+              "name": "图层 1",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "pX": 0,
+                    "x": 9.15,
+                    "skX": 0,
+                    "y": -10.65,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "z": 0,
+                  "duration": 1
+                },
+                {
+                  "duration": 1,
+                  "z": 0,
+                  "displayIndex": 1,
+                  "transform": {
+                    "pX": 0,
+                    "x": 9.15,
+                    "skX": 0,
+                    "y": -10.65,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  }
+                },
+                {
+                  "duration": 1,
+                  "z": 0,
+                  "displayIndex": 2,
+                  "transform": {
+                    "pX": 0,
+                    "x": 9.15,
+                    "skX": 0,
+                    "y": -10.65,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  }
+                },
+                {
+                  "duration": 1,
+                  "z": 0,
+                  "displayIndex": 3,
+                  "transform": {
+                    "pX": 0,
+                    "x": 9.15,
+                    "skX": 0,
+                    "y": -10.65,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  }
+                },
+                {
+                  "duration": 1,
+                  "z": 0,
+                  "displayIndex": 4,
+                  "transform": {
+                    "pX": 0,
+                    "x": 9.15,
+                    "skX": 0,
+                    "y": -10.65,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  }
+                },
+                {
+                  "duration": 1,
+                  "z": 0,
+                  "displayIndex": 5,
+                  "transform": {
+                    "pX": 0,
+                    "x": 9.15,
+                    "skX": 0,
+                    "y": -10.65,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  }
+                },
+                {
+                  "duration": 1,
+                  "z": 0,
+                  "displayIndex": 6,
+                  "transform": {
+                    "pX": 0,
+                    "x": 9.15,
+                    "skX": 0,
+                    "y": -10.65,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  }
+                },
+                {
+                  "duration": 1,
+                  "z": 0,
+                  "displayIndex": 7,
+                  "transform": {
+                    "pX": 0,
+                    "x": 9.15,
+                    "skX": 0,
+                    "y": -10.65,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  }
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "autoTween": 0,
+          "tweenEasing": null
+        }
+      ]
+    }
+  ],
+  "name": "game_living_Living473",
+  "version": 2.3
+}

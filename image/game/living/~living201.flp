@@ -1,0 +1,6 @@
+﻿<flash_project name="~Living201" version="1">
+	<project_file path="./~Living201.fla" filetype="fla" profile="" def_file="true"/>
+	<project_file path="./road/game/resource/ActionMovieEvent.as" filetype="as"/>
+	<project_file path="./road/game/resource/ActionMovie.as" filetype="as"/>
+	<project_file path="./game/living/Living201.as" filetype="as"/>
+</flash_project>

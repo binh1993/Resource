@@ -1,0 +1,467 @@
+{
+  "frameRate": 24,
+  "armature": [
+    {
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "图层 3",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "x": -50,
+                    "skX": 0,
+                    "y": -43.5,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "472B/风3_0004.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -50,
+                    "skX": 0,
+                    "y": -43.5,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "472B/风3_0008.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -50,
+                    "skX": 0,
+                    "y": -43.5,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "472B/风3_0015.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -50,
+                    "skX": 0,
+                    "y": -43.5,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "472B/风3_0017.png",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 3"
+            }
+          ],
+          "name": "default"
+        }
+      ],
+      "name": "asset_game_fifteen_472b",
+      "bone": [
+        {
+          "transform": {
+            "scY": 3.360641,
+            "x": -12.5,
+            "skX": 0,
+            "scX": 2.100006,
+            "y": -126.9,
+            "skY": 0
+          },
+          "name": "图层 3"
+        }
+      ],
+      "animation": [
+        {
+          "name": "default",
+          "scale": 1,
+          "loop": 1,
+          "duration": 48,
+          "fadeInTime": 0,
+          "timeline": [
+            {
+              "name": "图层 3",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": -12.5,
+                    "skX": 0,
+                    "y": -126.9,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 2.100006,
+                    "skY": 0,
+                    "scY": 3.360641
+                  },
+                  "z": 0,
+                  "duration": 2
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 1,
+                  "transform": {
+                    "x": -12.5,
+                    "skX": 0,
+                    "y": -126.9,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 2.100006,
+                    "skY": 0,
+                    "scY": 3.360641
+                  },
+                  "duration": 2
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 2,
+                  "transform": {
+                    "x": -12.5,
+                    "skX": 0,
+                    "y": -126.9,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 2.100006,
+                    "skY": 0,
+                    "scY": 3.360641
+                  },
+                  "duration": 2
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 3,
+                  "transform": {
+                    "x": -12.5,
+                    "skX": 0,
+                    "y": -126.9,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 2.100006,
+                    "skY": 0,
+                    "scY": 3.360641
+                  },
+                  "duration": 2
+                },
+                {
+                  "transform": {
+                    "x": -12.5,
+                    "skX": 0,
+                    "y": -126.9,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 2.100006,
+                    "skY": 0,
+                    "scY": 3.360641
+                  },
+                  "z": 0,
+                  "duration": 2
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 1,
+                  "transform": {
+                    "x": -12.5,
+                    "skX": 0,
+                    "y": -126.9,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 2.100006,
+                    "skY": 0,
+                    "scY": 3.360641
+                  },
+                  "duration": 2
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 2,
+                  "transform": {
+                    "x": -12.5,
+                    "skX": 0,
+                    "y": -126.9,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 2.100006,
+                    "skY": 0,
+                    "scY": 3.360641
+                  },
+                  "duration": 2
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 3,
+                  "transform": {
+                    "x": -12.5,
+                    "skX": 0,
+                    "y": -126.9,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 2.100006,
+                    "skY": 0,
+                    "scY": 3.360641
+                  },
+                  "duration": 2
+                },
+                {
+                  "transform": {
+                    "x": -12.5,
+                    "skX": 0,
+                    "y": -126.9,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 2.100006,
+                    "skY": 0,
+                    "scY": 3.360641
+                  },
+                  "z": 0,
+                  "duration": 2
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 1,
+                  "transform": {
+                    "x": -12.5,
+                    "skX": 0,
+                    "y": -126.9,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 2.100006,
+                    "skY": 0,
+                    "scY": 3.360641
+                  },
+                  "duration": 2
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 2,
+                  "transform": {
+                    "x": -12.5,
+                    "skX": 0,
+                    "y": -126.9,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 2.100006,
+                    "skY": 0,
+                    "scY": 3.360641
+                  },
+                  "duration": 2
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 3,
+                  "transform": {
+                    "x": -12.5,
+                    "skX": 0,
+                    "y": -126.9,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 2.100006,
+                    "skY": 0,
+                    "scY": 3.360641
+                  },
+                  "duration": 2
+                },
+                {
+                  "transform": {
+                    "x": -12.5,
+                    "skX": 0,
+                    "y": -126.9,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 2.100006,
+                    "skY": 0,
+                    "scY": 3.360641
+                  },
+                  "z": 0,
+                  "duration": 2
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 1,
+                  "transform": {
+                    "x": -12.5,
+                    "skX": 0,
+                    "y": -126.9,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 2.100006,
+                    "skY": 0,
+                    "scY": 3.360641
+                  },
+                  "duration": 2
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 2,
+                  "transform": {
+                    "x": -12.5,
+                    "skX": 0,
+                    "y": -126.9,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 2.100006,
+                    "skY": 0,
+                    "scY": 3.360641
+                  },
+                  "duration": 2
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 3,
+                  "transform": {
+                    "x": -12.5,
+                    "skX": 0,
+                    "y": -126.9,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 2.100006,
+                    "skY": 0,
+                    "scY": 3.360641
+                  },
+                  "duration": 2
+                },
+                {
+                  "transform": {
+                    "x": -12.5,
+                    "skX": 0,
+                    "y": -126.9,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 2.100006,
+                    "skY": 0,
+                    "scY": 3.360641
+                  },
+                  "z": 0,
+                  "duration": 2
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 1,
+                  "transform": {
+                    "x": -12.5,
+                    "skX": 0,
+                    "y": -126.9,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 2.100006,
+                    "skY": 0,
+                    "scY": 3.360641
+                  },
+                  "duration": 2
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 2,
+                  "transform": {
+                    "x": -12.5,
+                    "skX": 0,
+                    "y": -126.9,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 2.100006,
+                    "skY": 0,
+                    "scY": 3.360641
+                  },
+                  "duration": 2
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 3,
+                  "transform": {
+                    "x": -12.5,
+                    "skX": 0,
+                    "y": -126.9,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 2.100006,
+                    "skY": 0,
+                    "scY": 3.360641
+                  },
+                  "duration": 2
+                },
+                {
+                  "transform": {
+                    "x": -12.5,
+                    "skX": 0,
+                    "y": -126.9,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 2.100006,
+                    "skY": 0,
+                    "scY": 3.360641
+                  },
+                  "z": 0,
+                  "duration": 2
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 1,
+                  "transform": {
+                    "x": -12.5,
+                    "skX": 0,
+                    "y": -126.9,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 2.100006,
+                    "skY": 0,
+                    "scY": 3.360641
+                  },
+                  "duration": 2
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 2,
+                  "transform": {
+                    "x": -12.5,
+                    "skX": 0,
+                    "y": -126.9,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 2.100006,
+                    "skY": 0,
+                    "scY": 3.360641
+                  },
+                  "duration": 2
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 3,
+                  "transform": {
+                    "x": -12.5,
+                    "skX": 0,
+                    "y": -126.9,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 2.100006,
+                    "skY": 0,
+                    "scY": 3.360641
+                  },
+                  "duration": 2
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "autoTween": 0,
+          "tweenEasing": null
+        }
+      ]
+    }
+  ],
+  "name": "asset_game_fifteen_472b",
+  "version": 2.3
+}

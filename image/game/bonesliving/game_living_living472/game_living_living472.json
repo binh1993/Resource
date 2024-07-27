@@ -1,0 +1,6839 @@
+{
+  "frameRate": 24,
+  "armature": [
+    {
+      "name": "game_living_Living472",
+      "bone": [
+        {
+          "transform": {
+            "scY": 1,
+            "x": 5.95,
+            "skX": 0,
+            "scX": 1,
+            "y": -23.45,
+            "skY": 0
+          },
+          "name": "图层 1"
+        }
+      ],
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "图层 1",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 0,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 0,
+                    "skY": 0
+                  },
+                  "name": "living472/stand",
+                  "type": "armature"
+                },
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 0,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 0,
+                    "skY": 0
+                  },
+                  "name": "living472/cry",
+                  "type": "armature"
+                },
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 0,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 0,
+                    "skY": 0
+                  },
+                  "name": "living472/die",
+                  "type": "armature"
+                },
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 0,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 0,
+                    "skY": 0
+                  },
+                  "name": "living472/beatA",
+                  "type": "armature"
+                },
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 0,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 0,
+                    "skY": 0
+                  },
+                  "name": "living472/beatB",
+                  "type": "armature"
+                },
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 0,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 0,
+                    "skY": 0
+                  },
+                  "name": "living472/beatC",
+                  "type": "armature"
+                }
+              ],
+              "parent": "图层 1"
+            }
+          ],
+          "name": "default"
+        }
+      ],
+      "animation": [
+        {
+          "name": "stand",
+          "duration": 60,
+          "loop": 1,
+          "fadeInTime": 0,
+          "timeline": [
+            {
+              "name": "图层 1",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": 5.95,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -23.45,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "z": 0,
+                  "duration": 60
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "scale": 1,
+          "autoTween": 1,
+          "tweenEasing": null
+        },
+        {
+          "name": "cry",
+          "duration": 15,
+          "loop": 1,
+          "frame": [
+            { "duration": 14 },
+            {
+              "event": "goto_stand",
+              "duration": 1
+            }
+          ],
+          "tweenEasing": null,
+          "timeline": [
+            {
+              "name": "图层 1",
+              "scale": 1,
+              "frame": [
+                {
+                  "z": 0,
+                  "displayIndex": 1,
+                  "transform": {
+                    "x": 5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -23.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 15
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "scale": 1,
+          "autoTween": 0,
+          "fadeInTime": 0
+        },
+        {
+          "name": "die",
+          "duration": 22,
+          "loop": 1,
+          "fadeInTime": 0,
+          "timeline": [
+            {
+              "name": "图层 1",
+              "scale": 1,
+              "frame": [
+                {
+                  "z": 0,
+                  "displayIndex": 2,
+                  "transform": {
+                    "x": 5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -23.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 22
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "scale": 1,
+          "autoTween": 1,
+          "tweenEasing": null
+        },
+        {
+          "name": "beatA",
+          "duration": 31,
+          "loop": 1,
+          "frame": [
+            { "duration": 30 },
+            {
+              "event": "goto_stand",
+              "duration": 1
+            }
+          ],
+          "tweenEasing": null,
+          "timeline": [
+            {
+              "name": "图层 1",
+              "scale": 1,
+              "frame": [
+                {
+                  "z": 0,
+                  "displayIndex": 3,
+                  "transform": {
+                    "x": 5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -23.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 31
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "scale": 1,
+          "autoTween": 0,
+          "fadeInTime": 0
+        },
+        {
+          "name": "beatB",
+          "duration": 26,
+          "loop": 1,
+          "frame": [
+            { "duration": 25 },
+            {
+              "event": "goto_stand",
+              "duration": 1
+            }
+          ],
+          "tweenEasing": null,
+          "timeline": [
+            {
+              "name": "图层 1",
+              "scale": 1,
+              "frame": [
+                {
+                  "z": 0,
+                  "displayIndex": 4,
+                  "transform": {
+                    "x": 5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -23.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 26
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "scale": 1,
+          "autoTween": 0,
+          "fadeInTime": 0
+        },
+        {
+          "name": "beatC",
+          "duration": 25,
+          "loop": 1,
+          "frame": [
+            { "duration": 24 },
+            {
+              "event": "goto_stand",
+              "duration": 1
+            }
+          ],
+          "tweenEasing": null,
+          "timeline": [
+            {
+              "name": "图层 1",
+              "scale": 1,
+              "frame": [
+                {
+                  "z": 0,
+                  "displayIndex": 5,
+                  "transform": {
+                    "x": 5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -23.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 25
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "scale": 1,
+          "autoTween": 0,
+          "fadeInTime": 0
+        }
+      ]
+    },
+    {
+      "name": "living472/stand",
+      "bone": [
+        {
+          "transform": {
+            "scY": 1,
+            "x": -4.5,
+            "skX": 0,
+            "scX": 1,
+            "y": 19,
+            "skY": 0
+          },
+          "name": "fan"
+        },
+        {
+          "transform": {
+            "scY": 1,
+            "x": 0,
+            "skX": 0,
+            "scX": 1,
+            "y": 0,
+            "skY": 0
+          },
+          "name": "图层 2"
+        }
+      ],
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "fan",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 179,
+                    "y": 0,
+                    "pY": 164.5,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/fsfwfsffs",
+                  "type": "image"
+                }
+              ],
+              "parent": "fan"
+            },
+            {
+              "name": "图层 2",
+              "z": 1,
+              "display": [
+                {
+                  "transform": {
+                    "x": -296.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -291.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/kuangfwew",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 2"
+            }
+          ],
+          "name": "default"
+        }
+      ],
+      "animation": [
+        {
+          "name": "hhddd",
+          "duration": 60,
+          "loop": 0,
+          "fadeInTime": 0,
+          "timeline": [
+            {
+              "name": "fan",
+              "scale": 1,
+              "frame": [
+                {
+                  "z": 0,
+                  "duration": 9,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 0,
+                  "duration": 10,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 54.44,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 54.44,
+                    "scY": 1
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 0,
+                  "duration": 10,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 114.88,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 114.88,
+                    "scY": 1
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 0,
+                  "duration": 12,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 176.37,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 176.37,
+                    "scY": 1
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 0,
+                  "duration": 9,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": -109.65,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": -109.65,
+                    "scY": 1
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 0,
+                  "duration": 9,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": -54.7,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 0.999985,
+                    "skY": -54.7,
+                    "scY": 0.999985
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "z": 0,
+                  "duration": 1
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 2",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "z": 1,
+                  "duration": 60
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "scale": 1,
+          "autoTween": 0,
+          "tweenEasing": null
+        }
+      ]
+    },
+    {
+      "name": "living472/cry",
+      "bone": [
+        {
+          "transform": {
+            "scY": 1,
+            "x": -4.5,
+            "skX": 0,
+            "scX": 1,
+            "y": 19,
+            "skY": 0
+          },
+          "name": "fan"
+        },
+        {
+          "transform": {
+            "scY": 4.265671,
+            "x": -29.45,
+            "skX": 0,
+            "scX": 4.265671,
+            "y": 25.5,
+            "skY": 0
+          },
+          "name": "图层 3"
+        },
+        {
+          "transform": {
+            "scY": 1,
+            "x": 0,
+            "skX": 0,
+            "scX": 1,
+            "y": 0,
+            "skY": 0
+          },
+          "name": "图层 5"
+        },
+        {
+          "transform": {
+            "scY": 1,
+            "x": 4.9,
+            "skX": 0,
+            "scX": 1,
+            "y": -1.5,
+            "skY": 0
+          },
+          "name": "图层 2"
+        }
+      ],
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "fan",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 179,
+                    "y": 0,
+                    "pY": 164.5,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/fsfwfsffs",
+                  "type": "image"
+                }
+              ],
+              "parent": "fan"
+            },
+            {
+              "name": "图层 3",
+              "z": 1,
+              "display": [
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 0,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 0,
+                    "skY": 0
+                  },
+                  "name": "living472/元件 6",
+                  "type": "armature"
+                }
+              ],
+              "parent": "图层 3"
+            },
+            {
+              "name": "图层 5",
+              "z": 2,
+              "display": [
+                {
+                  "transform": {
+                    "x": -296.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -291.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/kuangfwew",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 5"
+            },
+            {
+              "name": "图层 2",
+              "z": 3,
+              "display": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/元件 1",
+                  "type": "armature"
+                }
+              ],
+              "parent": "图层 2"
+            }
+          ],
+          "name": "default"
+        }
+      ],
+      "animation": [
+        {
+          "name": "rrwwss",
+          "duration": 16,
+          "loop": 1,
+          "fadeInTime": 0,
+          "timeline": [
+            {
+              "name": "fan",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "z": 0,
+                  "duration": 16
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 3",
+              "scale": 1,
+              "frame": [
+                {
+                  "z": 1,
+                  "duration": 11,
+                  "transform": {
+                    "x": -29.45,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 25.5,
+                    "pY": 0,
+                    "scX": 4.265671,
+                    "skY": 0,
+                    "scY": 4.265671
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 0,
+                    "bO": 0,
+                    "aM": 62,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  }
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 5
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 5",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "z": 2,
+                  "duration": 16
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 2",
+              "scale": 1,
+              "frame": [
+                {
+                  "z": 3,
+                  "duration": 11,
+                  "transform": {
+                    "x": 4.9,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -1.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 0,
+                    "bO": 0,
+                    "aM": 59,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  }
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 5
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "scale": 1,
+          "autoTween": 0,
+          "tweenEasing": null
+        }
+      ]
+    },
+    {
+      "name": "living472/die",
+      "bone": [
+        {
+          "transform": {
+            "scY": 1,
+            "x": -4.5,
+            "skX": 0,
+            "scX": 1,
+            "y": 19,
+            "skY": 0
+          },
+          "name": "fan"
+        },
+        {
+          "transform": {
+            "scY": 1,
+            "x": 0,
+            "skX": 0,
+            "scX": 1,
+            "y": 0,
+            "skY": 0
+          },
+          "name": "图层 4"
+        },
+        {
+          "transform": {
+            "scY": 5.381165,
+            "x": 138.65,
+            "skX": 0,
+            "scX": 5.381165,
+            "y": 134.7,
+            "skY": 0
+          },
+          "name": "图层 5"
+        },
+        {
+          "transform": {
+            "scY": 1.219971,
+            "x": 143.15,
+            "skX": -57,
+            "scX": 1.219971,
+            "y": -108.6,
+            "skY": -57
+          },
+          "name": "图层 5  复制 2"
+        },
+        {
+          "transform": {
+            "scY": 2.995605,
+            "x": -195.25,
+            "skX": 36.94,
+            "scX": -2.995605,
+            "y": -110.1,
+            "skY": 36.94
+          },
+          "name": "图层 5 复制"
+        },
+        {
+          "transform": {
+            "scY": 1,
+            "x": 4.9,
+            "skX": 0,
+            "scX": 1,
+            "y": -1.5,
+            "skY": 0
+          },
+          "name": "图层 2"
+        }
+      ],
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "fan",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 179,
+                    "y": 0,
+                    "pY": 164.5,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/fsfwfsffs",
+                  "type": "image"
+                }
+              ],
+              "parent": "fan"
+            },
+            {
+              "name": "图层 4",
+              "z": 1,
+              "display": [
+                {
+                  "transform": {
+                    "x": -296.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -291.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/kuangfwew",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 4"
+            },
+            {
+              "name": "图层 5",
+              "z": 2,
+              "display": [
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 0,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 0,
+                    "skY": 0
+                  },
+                  "name": "living472/元件 18",
+                  "type": "armature"
+                }
+              ],
+              "parent": "图层 5"
+            },
+            {
+              "name": "图层 5  复制 2",
+              "z": 3,
+              "display": [
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 0,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 0,
+                    "skY": 0
+                  },
+                  "name": "living472/元件 18",
+                  "type": "armature"
+                }
+              ],
+              "parent": "图层 5  复制 2"
+            },
+            {
+              "name": "图层 5 复制",
+              "z": 4,
+              "display": [
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 0,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 0,
+                    "skY": 0
+                  },
+                  "name": "living472/元件 18",
+                  "type": "armature"
+                }
+              ],
+              "parent": "图层 5 复制"
+            },
+            {
+              "name": "图层 2",
+              "z": 5,
+              "display": [
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 0,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 0,
+                    "skY": 0
+                  },
+                  "name": "living472/元件 1",
+                  "type": "armature"
+                }
+              ],
+              "parent": "图层 2"
+            }
+          ],
+          "name": "default"
+        }
+      ],
+      "animation": [
+        {
+          "name": "jhjgfhgf",
+          "duration": 23,
+          "loop": 1,
+          "fadeInTime": 0,
+          "timeline": [
+            {
+              "name": "fan",
+              "scale": 1,
+              "frame": [
+                {
+                  "z": 0,
+                  "duration": 5,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 0,
+                  "duration": 10,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 9.31,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 0.999496,
+                    "skY": 9.31,
+                    "scY": 0.999496
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 32.42,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 1.000015,
+                    "skY": 32.42,
+                    "scY": 1.000015
+                  },
+                  "z": 0,
+                  "duration": 8
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 4",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "z": 1,
+                  "duration": 23
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 5",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": 138.65,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 134.7,
+                    "pY": 0,
+                    "scX": 5.381165,
+                    "skY": 0,
+                    "scY": 5.381165
+                  },
+                  "z": 2,
+                  "duration": 8
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 15
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 5  复制 2",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 11
+                },
+                {
+                  "transform": {
+                    "x": 143.15,
+                    "skX": -57,
+                    "pX": 0,
+                    "y": -108.6,
+                    "pY": 0,
+                    "scX": 1.219971,
+                    "skY": -57,
+                    "scY": 1.219971
+                  },
+                  "z": 3,
+                  "duration": 8
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 4
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 5 复制",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 9
+                },
+                {
+                  "transform": {
+                    "x": -195.25,
+                    "skX": 36.94,
+                    "pX": 0,
+                    "y": -110.1,
+                    "pY": 0,
+                    "scX": -2.995605,
+                    "skY": 36.94,
+                    "scY": 2.995605
+                  },
+                  "z": 4,
+                  "duration": 8
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 6
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 2",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 6
+                },
+                {
+                  "z": 5,
+                  "duration": 11,
+                  "transform": {
+                    "x": 4.9,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -1.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 0,
+                    "bO": 0,
+                    "aM": 59,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  }
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 6
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "scale": 1,
+          "autoTween": 0,
+          "tweenEasing": null
+        }
+      ]
+    },
+    {
+      "name": "living472/beatA",
+      "bone": [
+        {
+          "transform": {
+            "scY": 1,
+            "x": 4.5,
+            "skX": 0,
+            "scX": 1,
+            "y": 18.9,
+            "skY": 0
+          },
+          "name": "图层 2"
+        },
+        {
+          "transform": {
+            "scY": 1,
+            "x": -4.5,
+            "skX": 0,
+            "scX": 1,
+            "y": 19,
+            "skY": 0
+          },
+          "name": "fan"
+        },
+        {
+          "transform": {
+            "scY": 1,
+            "x": -37.9,
+            "skX": 0,
+            "scX": 1,
+            "y": -114.75,
+            "skY": 0
+          },
+          "name": "图层 2_0"
+        },
+        {
+          "transform": {
+            "scY": 1,
+            "x": -23.55,
+            "skX": 0,
+            "scX": 1,
+            "y": -117.8,
+            "skY": 0
+          },
+          "name": "图层 2 复制"
+        },
+        {
+          "transform": {
+            "scY": 0.824081,
+            "x": -202.8,
+            "skX": 100.78,
+            "scX": 0.824081,
+            "y": -114.8,
+            "skY": 100.78
+          },
+          "name": "元件 2"
+        },
+        {
+          "transform": {
+            "scY": 0.7435,
+            "x": -461.25,
+            "skX": 77.57,
+            "scX": 0.7435,
+            "y": -20.75,
+            "skY": 77.57
+          },
+          "name": "元件 2_0"
+        },
+        {
+          "transform": {
+            "scY": 0.550827,
+            "x": 320.7,
+            "skX": -94.03,
+            "scX": -0.550827,
+            "y": -116.9,
+            "skY": -94.03
+          },
+          "name": "元件 2_1"
+        },
+        {
+          "transform": {
+            "scY": 0.999985,
+            "x": -278.9,
+            "skX": 81.06,
+            "scX": 0.999985,
+            "y": -40.6,
+            "skY": 81.06
+          },
+          "name": "元件 2_2"
+        },
+        {
+          "transform": {
+            "scY": 1,
+            "x": 249.3,
+            "skX": -94.56,
+            "scX": -1,
+            "y": -42.5,
+            "skY": -94.56
+          },
+          "name": "元件 2_3"
+        },
+        {
+          "transform": {
+            "scY": 0.550827,
+            "x": 419.25,
+            "skX": -85.06,
+            "scX": -0.550827,
+            "y": -91.1,
+            "skY": -85.06
+          },
+          "name": "元件 2  复制 2"
+        },
+        {
+          "transform": {
+            "scY": 1,
+            "x": -371.4,
+            "skX": 63.62,
+            "scX": 1,
+            "y": 50.35,
+            "skY": 63.62
+          },
+          "name": "元件 2  复制 2_0"
+        },
+        {
+          "transform": {
+            "scY": 0.999985,
+            "x": 411.55,
+            "skX": -81.04,
+            "scX": -0.999985,
+            "y": 27.25,
+            "skY": -81.04
+          },
+          "name": "元件 2 复制"
+        },
+        {
+          "transform": {
+            "scY": 4.370163,
+            "x": -15.5,
+            "skX": 0,
+            "scX": 4.370163,
+            "y": 22.6,
+            "skY": 0
+          },
+          "name": "图层 3"
+        },
+        {
+          "transform": {
+            "scY": 1,
+            "x": -116.8,
+            "skX": -177.26,
+            "scX": 1,
+            "y": -36.5,
+            "skY": -177.26
+          },
+          "name": "图层 5"
+        },
+        {
+          "transform": {
+            "scY": 2.064697,
+            "x": 116.2,
+            "skX": 0,
+            "scX": 3.785919,
+            "y": -6.05,
+            "skY": 0
+          },
+          "name": "图层 4"
+        },
+        {
+          "transform": {
+            "scY": 2.064697,
+            "x": -52.15,
+            "skX": 0,
+            "scX": 3.785919,
+            "y": -21.2,
+            "skY": 0
+          },
+          "name": "图层 4 复制"
+        },
+        {
+          "transform": {
+            "scY": 1.714859,
+            "x": -32.6,
+            "skX": 101.94,
+            "scX": 1.714859,
+            "y": 11.45,
+            "skY": 101.94
+          },
+          "name": "元件 14"
+        },
+        {
+          "transform": {
+            "scY": 1.714798,
+            "x": -0.95,
+            "skX": -19.25,
+            "scX": 1.714798,
+            "y": 67.25,
+            "skY": -19.25
+          },
+          "name": "元件 14_0"
+        },
+        {
+          "transform": {
+            "scY": 1.714844,
+            "x": 19.55,
+            "skX": -165.61,
+            "scX": 1.714844,
+            "y": -13.4,
+            "skY": -165.61
+          },
+          "name": "元件 14_1"
+        },
+        {
+          "transform": {
+            "scY": 1.714874,
+            "x": 26.4,
+            "skX": -112.36,
+            "scX": 1.714874,
+            "y": 20.65,
+            "skY": -112.36
+          },
+          "name": "图层 4_0"
+        },
+        {
+          "transform": {
+            "scY": 1,
+            "x": 0,
+            "skX": 0,
+            "scX": 1,
+            "y": 0,
+            "skY": 0
+          },
+          "name": "kuang"
+        },
+        {
+          "transform": {
+            "scY": 5.297333,
+            "x": 2.95,
+            "skX": 0,
+            "scX": 5.297333,
+            "y": 5.75,
+            "skY": 0
+          },
+          "name": "图层 8"
+        },
+        {
+          "transform": {
+            "scY": 7.135803,
+            "x": 11.6,
+            "skX": 0,
+            "scX": 7.135803,
+            "y": 14.65,
+            "skY": 0
+          },
+          "name": "图层 7"
+        }
+      ],
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "图层 2",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 45,
+                    "y": 0,
+                    "pY": 45,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/元件 4",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 2"
+            },
+            {
+              "name": "fan",
+              "z": 1,
+              "display": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 179,
+                    "y": 0,
+                    "pY": 164.5,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/fsfwfsffs",
+                  "type": "image"
+                }
+              ],
+              "parent": "fan"
+            },
+            {
+              "name": "图层 2_0",
+              "z": 2,
+              "display": [
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 0,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 0,
+                    "skY": 0
+                  },
+                  "name": "living472/元件 2",
+                  "type": "armature"
+                }
+              ],
+              "parent": "图层 2_0"
+            },
+            {
+              "name": "图层 2 复制",
+              "z": 3,
+              "display": [
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 0,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 0,
+                    "skY": 0
+                  },
+                  "name": "living472/元件 2",
+                  "type": "armature"
+                }
+              ],
+              "parent": "图层 2 复制"
+            },
+            {
+              "name": "元件 2",
+              "z": 4,
+              "display": [
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 0,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 0,
+                    "skY": 0
+                  },
+                  "name": "living472/元件 2",
+                  "type": "armature"
+                }
+              ],
+              "parent": "元件 2"
+            },
+            {
+              "name": "元件 2_0",
+              "z": 5,
+              "display": [
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 0,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 0,
+                    "skY": 0
+                  },
+                  "name": "living472/元件 2",
+                  "type": "armature"
+                }
+              ],
+              "parent": "元件 2_0"
+            },
+            {
+              "name": "元件 2_1",
+              "z": 7,
+              "display": [
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 0,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 0,
+                    "skY": 0
+                  },
+                  "name": "living472/元件 2",
+                  "type": "armature"
+                }
+              ],
+              "parent": "元件 2_1"
+            },
+            {
+              "name": "元件 2_2",
+              "z": 8,
+              "display": [
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 0,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 0,
+                    "skY": 0
+                  },
+                  "name": "living472/元件 2",
+                  "type": "armature"
+                }
+              ],
+              "parent": "元件 2_2"
+            },
+            {
+              "name": "元件 2_3",
+              "z": 9,
+              "display": [
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 0,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 0,
+                    "skY": 0
+                  },
+                  "name": "living472/元件 2",
+                  "type": "armature"
+                }
+              ],
+              "parent": "元件 2_3"
+            },
+            {
+              "name": "元件 2  复制 2",
+              "z": 10,
+              "display": [
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 0,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 0,
+                    "skY": 0
+                  },
+                  "name": "living472/元件 2",
+                  "type": "armature"
+                }
+              ],
+              "parent": "元件 2  复制 2"
+            },
+            {
+              "name": "元件 2  复制 2_0",
+              "z": 11,
+              "display": [
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 0,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 0,
+                    "skY": 0
+                  },
+                  "name": "living472/元件 2",
+                  "type": "armature"
+                }
+              ],
+              "parent": "元件 2  复制 2_0"
+            },
+            {
+              "name": "元件 2 复制",
+              "z": 12,
+              "display": [
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 0,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 0,
+                    "skY": 0
+                  },
+                  "name": "living472/元件 2",
+                  "type": "armature"
+                }
+              ],
+              "parent": "元件 2 复制"
+            },
+            {
+              "name": "图层 3",
+              "z": 13,
+              "display": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 41.95,
+                    "y": 0.05,
+                    "pY": 45.3,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/元件 12",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 3"
+            },
+            {
+              "name": "图层 5",
+              "z": 14,
+              "display": [
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 0.05,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 0,
+                    "skY": 0
+                  },
+                  "name": "living472/元件 10",
+                  "type": "armature"
+                }
+              ],
+              "parent": "图层 5"
+            },
+            {
+              "name": "图层 4",
+              "z": 15,
+              "display": [
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 0,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 0,
+                    "skY": 0
+                  },
+                  "name": "living472/元件 8",
+                  "type": "armature"
+                }
+              ],
+              "parent": "图层 4"
+            },
+            {
+              "name": "图层 4 复制",
+              "z": 16,
+              "display": [
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 0,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 0,
+                    "skY": 0
+                  },
+                  "name": "living472/元件 8",
+                  "type": "armature"
+                }
+              ],
+              "parent": "图层 4 复制"
+            },
+            {
+              "name": "元件 14",
+              "z": 17,
+              "display": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/元件 14",
+                  "type": "armature"
+                }
+              ],
+              "parent": "元件 14"
+            },
+            {
+              "name": "元件 14_0",
+              "z": 18,
+              "display": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/元件 14",
+                  "type": "armature"
+                }
+              ],
+              "parent": "元件 14_0"
+            },
+            {
+              "name": "元件 14_1",
+              "z": 19,
+              "display": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/元件 14",
+                  "type": "armature"
+                }
+              ],
+              "parent": "元件 14_1"
+            },
+            {
+              "name": "图层 4_0",
+              "z": 20,
+              "display": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/元件 14",
+                  "type": "armature"
+                }
+              ],
+              "parent": "图层 4_0"
+            },
+            {
+              "name": "kuang",
+              "z": 21,
+              "display": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 296.5,
+                    "y": 0,
+                    "pY": 291.5,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/fsfsfsfs",
+                  "type": "image"
+                }
+              ],
+              "parent": "kuang"
+            },
+            {
+              "name": "图层 8",
+              "z": 22,
+              "display": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 45,
+                    "y": 0,
+                    "pY": 45,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/元件 15",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 8"
+            },
+            {
+              "name": "图层 7",
+              "z": 23,
+              "display": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 45,
+                    "y": 0,
+                    "pY": 45,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/元件 16",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 7"
+            }
+          ],
+          "name": "default"
+        }
+      ],
+      "animation": [
+        {
+          "name": "kkjfdgd",
+          "duration": 30,
+          "loop": 1,
+          "fadeInTime": 0,
+          "timeline": [
+            {
+              "name": "图层 2",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 10
+                },
+                {
+                  "z": 0,
+                  "duration": 4,
+                  "transform": {
+                    "x": 4.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 18.9,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 0,
+                  "duration": 1,
+                  "transform": {
+                    "x": 4.55,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 23.5,
+                    "pY": 0,
+                    "scX": 8.447449,
+                    "skY": 0,
+                    "scY": 8.447449
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 0,
+                    "bO": 0,
+                    "aM": 16,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 15
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "fan",
+              "scale": 1,
+              "frame": [
+                {
+                  "z": 1,
+                  "duration": 2,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 2,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 50.96,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 50.96,
+                    "scY": 1
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 2,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 102.91,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 1.000015,
+                    "skY": 102.91,
+                    "scY": 1.000015
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 2,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 153.63,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 0.999985,
+                    "skY": 153.63,
+                    "scY": 0.999985
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 2,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": -153.9,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 0.999985,
+                    "skY": -153.9,
+                    "scY": 0.999985
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 2,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": -102.41,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 0.999969,
+                    "skY": -102.41,
+                    "scY": 0.999969
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 2,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": -51.71,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 0.999954,
+                    "skY": -51.71,
+                    "scY": 0.999954
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "z": 1,
+                  "duration": 1
+                },
+                {
+                  "z": 1,
+                  "duration": 2,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 2,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 50.96,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 50.96,
+                    "scY": 1
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 2,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 102.91,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 1.000015,
+                    "skY": 102.91,
+                    "scY": 1.000015
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 2,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 153.63,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 0.999985,
+                    "skY": 153.63,
+                    "scY": 0.999985
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 2,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": -153.9,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 0.999985,
+                    "skY": -153.9,
+                    "scY": 0.999985
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 2,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": -102.41,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 0.999969,
+                    "skY": -102.41,
+                    "scY": 0.999969
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 2,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": -51.71,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 0.999954,
+                    "skY": -51.71,
+                    "scY": 0.999954
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "z": 1,
+                  "duration": 1
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 2_0",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 11
+                },
+                {
+                  "transform": {
+                    "x": -37.9,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -114.75,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "z": 2,
+                  "duration": 4
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 15
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 2 复制",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 14
+                },
+                {
+                  "transform": {
+                    "x": -23.55,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -117.8,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "z": 3,
+                  "duration": 4
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 12
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "元件 2",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 14
+                },
+                {
+                  "transform": {
+                    "x": -202.8,
+                    "skX": 100.78,
+                    "pX": 0,
+                    "y": -114.8,
+                    "pY": 0,
+                    "scX": 0.824081,
+                    "skY": 100.78,
+                    "scY": 0.824081
+                  },
+                  "z": 4,
+                  "duration": 4
+                },
+                {
+                  "transform": {
+                    "x": 366.5,
+                    "skX": -77.57,
+                    "pX": 0,
+                    "y": -42.3,
+                    "pY": 0,
+                    "scX": -0.65741,
+                    "skY": -77.57,
+                    "scY": 0.65741
+                  },
+                  "z": 6,
+                  "duration": 4
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 8
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "元件 2_0",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 16
+                },
+                {
+                  "transform": {
+                    "x": -461.25,
+                    "skX": 77.57,
+                    "pX": 0,
+                    "y": -20.75,
+                    "pY": 0,
+                    "scX": 0.7435,
+                    "skY": 77.57,
+                    "scY": 0.7435
+                  },
+                  "z": 5,
+                  "duration": 4
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 10
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "元件 2_1",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 14
+                },
+                {
+                  "transform": {
+                    "x": 320.7,
+                    "skX": -94.03,
+                    "pX": 0,
+                    "y": -116.9,
+                    "pY": 0,
+                    "scX": -0.550827,
+                    "skY": -94.03,
+                    "scY": 0.550827
+                  },
+                  "z": 7,
+                  "duration": 4
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 12
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "元件 2_2",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 16
+                },
+                {
+                  "transform": {
+                    "x": -278.9,
+                    "skX": 81.06,
+                    "pX": 0,
+                    "y": -40.6,
+                    "pY": 0,
+                    "scX": 0.999985,
+                    "skY": 81.06,
+                    "scY": 0.999985
+                  },
+                  "z": 8,
+                  "duration": 4
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 10
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "元件 2_3",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 18
+                },
+                {
+                  "transform": {
+                    "x": 249.3,
+                    "skX": -94.56,
+                    "pX": 0,
+                    "y": -42.5,
+                    "pY": 0,
+                    "scX": -1,
+                    "skY": -94.56,
+                    "scY": 1
+                  },
+                  "z": 9,
+                  "duration": 4
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 8
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "元件 2  复制 2",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 14
+                },
+                {
+                  "transform": {
+                    "x": 419.25,
+                    "skX": -85.06,
+                    "pX": 0,
+                    "y": -91.1,
+                    "pY": 0,
+                    "scX": -0.550827,
+                    "skY": -85.06,
+                    "scY": 0.550827
+                  },
+                  "z": 10,
+                  "duration": 4
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 12
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "元件 2  复制 2_0",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 16
+                },
+                {
+                  "transform": {
+                    "x": -371.4,
+                    "skX": 63.62,
+                    "pX": 0,
+                    "y": 50.35,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 63.62,
+                    "scY": 1
+                  },
+                  "z": 11,
+                  "duration": 4
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 10
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "元件 2 复制",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 18
+                },
+                {
+                  "transform": {
+                    "x": 411.55,
+                    "skX": -81.04,
+                    "pX": 0,
+                    "y": 27.25,
+                    "pY": 0,
+                    "scX": -0.999985,
+                    "skY": -81.04,
+                    "scY": 0.999985
+                  },
+                  "z": 12,
+                  "duration": 4
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 8
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 3",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 11
+                },
+                {
+                  "transform": {
+                    "x": -15.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 22.6,
+                    "pY": 0,
+                    "scX": 4.370163,
+                    "skY": 0,
+                    "scY": 4.370163
+                  },
+                  "z": 13,
+                  "duration": 2
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 2
+                },
+                {
+                  "transform": {
+                    "x": -15.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 22.6,
+                    "pY": 0,
+                    "scX": 4.370163,
+                    "skY": 0,
+                    "scY": 4.370163
+                  },
+                  "z": 13,
+                  "duration": 4
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 2
+                },
+                {
+                  "transform": {
+                    "x": -15.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 22.6,
+                    "pY": 0,
+                    "scX": 4.370163,
+                    "skY": 0,
+                    "scY": 4.370163
+                  },
+                  "z": 13,
+                  "duration": 4
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 1
+                },
+                {
+                  "transform": {
+                    "x": -15.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 22.6,
+                    "pY": 0,
+                    "scX": 4.370163,
+                    "skY": 0,
+                    "scY": 4.370163
+                  },
+                  "z": 13,
+                  "duration": 4
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 5",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 13
+                },
+                {
+                  "z": 14,
+                  "duration": 1,
+                  "transform": {
+                    "x": -116.8,
+                    "skX": -177.26,
+                    "pX": 0,
+                    "y": -36.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": -177.26,
+                    "scY": 1
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 14,
+                  "duration": 4,
+                  "transform": {
+                    "x": -181.45,
+                    "skX": -178.21,
+                    "pX": 0,
+                    "y": -33.15,
+                    "pY": 0,
+                    "scX": 1.028366,
+                    "skY": -178.21,
+                    "scY": 0.97258
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 14,
+                  "duration": 1,
+                  "transform": {
+                    "x": -439.8,
+                    "skX": 178.54,
+                    "pX": 0,
+                    "y": -19.75,
+                    "pY": 0,
+                    "scX": 1.142456,
+                    "skY": 178.54,
+                    "scY": 0.86351
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 11
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 4",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 12
+                },
+                {
+                  "transform": {
+                    "x": 116.2,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -6.05,
+                    "pY": 0,
+                    "scX": 3.785919,
+                    "skY": 0,
+                    "scY": 2.064697
+                  },
+                  "z": 15,
+                  "duration": 5
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 13
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 4 复制",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 14
+                },
+                {
+                  "transform": {
+                    "x": -52.15,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -21.2,
+                    "pY": 0,
+                    "scX": 3.785919,
+                    "skY": 0,
+                    "scY": 2.064697
+                  },
+                  "z": 16,
+                  "duration": 5
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 11
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "元件 14",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 3
+                },
+                {
+                  "transform": {
+                    "x": -32.6,
+                    "skX": 101.94,
+                    "pX": 0,
+                    "y": 11.45,
+                    "pY": 0,
+                    "scX": 1.714859,
+                    "skY": 101.94,
+                    "scY": 1.714859
+                  },
+                  "z": 17,
+                  "duration": 6
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 5
+                },
+                {
+                  "transform": {
+                    "x": -32.6,
+                    "skX": 101.94,
+                    "pX": 0,
+                    "y": 11.45,
+                    "pY": 0,
+                    "scX": 1.714859,
+                    "skY": 101.94,
+                    "scY": 1.714859
+                  },
+                  "z": 17,
+                  "duration": 6
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 10
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "元件 14_0",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 1
+                },
+                {
+                  "transform": {
+                    "x": -0.95,
+                    "skX": -19.25,
+                    "pX": 0,
+                    "y": 67.25,
+                    "pY": 0,
+                    "scX": 1.714798,
+                    "skY": -19.25,
+                    "scY": 1.714798
+                  },
+                  "z": 18,
+                  "duration": 6
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 5
+                },
+                {
+                  "transform": {
+                    "x": -0.95,
+                    "skX": -19.25,
+                    "pX": 0,
+                    "y": 67.25,
+                    "pY": 0,
+                    "scX": 1.714798,
+                    "skY": -19.25,
+                    "scY": 1.714798
+                  },
+                  "z": 18,
+                  "duration": 6
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 12
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "元件 14_1",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 4
+                },
+                {
+                  "transform": {
+                    "x": 19.55,
+                    "skX": -165.61,
+                    "pX": 0,
+                    "y": -13.4,
+                    "pY": 0,
+                    "scX": 1.714844,
+                    "skY": -165.61,
+                    "scY": 1.714844
+                  },
+                  "z": 19,
+                  "duration": 6
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 20
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 4_0",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": 26.4,
+                    "skX": -112.36,
+                    "pX": 0,
+                    "y": 20.65,
+                    "pY": 0,
+                    "scX": 1.714874,
+                    "skY": -112.36,
+                    "scY": 1.714874
+                  },
+                  "z": 20,
+                  "duration": 6
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 4
+                },
+                {
+                  "transform": {
+                    "x": 26.4,
+                    "skX": -112.36,
+                    "pX": 0,
+                    "y": 20.65,
+                    "pY": 0,
+                    "scX": 1.714874,
+                    "skY": -112.36,
+                    "scY": 1.714874
+                  },
+                  "z": 20,
+                  "duration": 6
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 14
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "kuang",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "z": 21,
+                  "duration": 30
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 8",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 5
+                },
+                {
+                  "z": 22,
+                  "duration": 2,
+                  "transform": {
+                    "x": 2.95,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 5.75,
+                    "pY": 0,
+                    "scX": 5.297333,
+                    "skY": 0,
+                    "scY": 5.297333
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 0,
+                    "bO": 0,
+                    "aM": 80,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 22,
+                  "duration": 1,
+                  "transform": {
+                    "x": 1.45,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 16.3,
+                    "pY": 0,
+                    "scX": 1.132446,
+                    "skY": 0,
+                    "scY": 1.132446
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 2
+                },
+                {
+                  "z": 22,
+                  "duration": 2,
+                  "transform": {
+                    "x": 1.45,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 16.3,
+                    "pY": 0,
+                    "scX": 3.111694,
+                    "skY": 0,
+                    "scY": 3.111694
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 22,
+                  "duration": 2,
+                  "transform": {
+                    "x": 1.45,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 16.3,
+                    "pY": 0,
+                    "scX": 10.86647,
+                    "skY": 0,
+                    "scY": 10.86647
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 0,
+                    "bO": 0,
+                    "aM": 33,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 22,
+                  "duration": 2,
+                  "transform": {
+                    "x": 1.25,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 16.3,
+                    "pY": 0,
+                    "scX": 11.988007,
+                    "skY": 0,
+                    "scY": 11.988007
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 0,
+                    "bO": 0,
+                    "aM": 16,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 22,
+                  "duration": 14,
+                  "transform": {
+                    "x": 1.45,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 16.3,
+                    "pY": 0,
+                    "scX": 13.109711,
+                    "skY": 0,
+                    "scY": 13.109711
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 0,
+                    "bO": 0,
+                    "aM": 0,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  }
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 7",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 5
+                },
+                {
+                  "z": 23,
+                  "duration": 2,
+                  "transform": {
+                    "x": 11.6,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 14.65,
+                    "pY": 0,
+                    "scX": 7.135803,
+                    "skY": 0,
+                    "scY": 7.135803
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 0,
+                    "bO": 0,
+                    "aM": 63,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 23,
+                  "duration": 1,
+                  "transform": {
+                    "x": 11.6,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 14.65,
+                    "pY": 0,
+                    "scX": 2.079575,
+                    "skY": 0,
+                    "scY": 2.079575
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 2
+                },
+                {
+                  "z": 23,
+                  "duration": 4,
+                  "transform": {
+                    "x": 11.6,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 14.65,
+                    "pY": 0,
+                    "scX": 2.079575,
+                    "skY": 0,
+                    "scY": 2.079575
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 23,
+                  "duration": 1,
+                  "transform": {
+                    "x": 11.6,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 14.65,
+                    "pY": 0,
+                    "scX": 8.147278,
+                    "skY": 0,
+                    "scY": 8.147278
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 0,
+                    "bO": 0,
+                    "aM": 0,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 15
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "scale": 1,
+          "autoTween": 0,
+          "tweenEasing": null
+        }
+      ]
+    },
+    {
+      "name": "living472/beatB",
+      "bone": [
+        {
+          "transform": {
+            "scY": 1,
+            "x": 4.5,
+            "skX": 0,
+            "scX": 1,
+            "y": 18.9,
+            "skY": 0
+          },
+          "name": "图层 2"
+        },
+        {
+          "transform": {
+            "scY": 1,
+            "x": -4.5,
+            "skX": 0,
+            "scX": 1,
+            "y": 19,
+            "skY": 0
+          },
+          "name": "fan"
+        },
+        {
+          "transform": {
+            "scY": 4.370163,
+            "x": -15.5,
+            "skX": 0,
+            "scX": 4.370163,
+            "y": 22.6,
+            "skY": 0
+          },
+          "name": "图层 3"
+        },
+        {
+          "transform": {
+            "scY": 1.714859,
+            "x": -32.6,
+            "skX": 101.94,
+            "scX": 1.714859,
+            "y": 11.45,
+            "skY": 101.94
+          },
+          "name": "元件 14"
+        },
+        {
+          "transform": {
+            "scY": 1.714798,
+            "x": -0.95,
+            "skX": -19.25,
+            "scX": 1.714798,
+            "y": 67.25,
+            "skY": -19.25
+          },
+          "name": "元件 14_0"
+        },
+        {
+          "transform": {
+            "scY": 1.714844,
+            "x": 19.55,
+            "skX": -165.61,
+            "scX": 1.714844,
+            "y": -13.4,
+            "skY": -165.61
+          },
+          "name": "元件 14_1"
+        },
+        {
+          "transform": {
+            "scY": 1.714874,
+            "x": 26.4,
+            "skX": -112.36,
+            "scX": 1.714874,
+            "y": 20.65,
+            "skY": -112.36
+          },
+          "name": "图层 4"
+        },
+        {
+          "transform": {
+            "scY": 1,
+            "x": 0,
+            "skX": 0,
+            "scX": 1,
+            "y": 0,
+            "skY": 0
+          },
+          "name": "图层 6"
+        },
+        {
+          "transform": {
+            "scY": 5.297333,
+            "x": 2.95,
+            "skX": 0,
+            "scX": 5.297333,
+            "y": 5.75,
+            "skY": 0
+          },
+          "name": "图层 8"
+        },
+        {
+          "transform": {
+            "scY": 7.135803,
+            "x": 11.6,
+            "skX": 0,
+            "scX": 7.135803,
+            "y": 14.65,
+            "skY": 0
+          },
+          "name": "图层 7"
+        }
+      ],
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "图层 2",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 45,
+                    "y": 0,
+                    "pY": 45,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/元件 4",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 2"
+            },
+            {
+              "name": "fan",
+              "z": 1,
+              "display": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 179,
+                    "y": 0,
+                    "pY": 164.5,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/fsfwfsffs",
+                  "type": "image"
+                }
+              ],
+              "parent": "fan"
+            },
+            {
+              "name": "图层 3",
+              "z": 2,
+              "display": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 41.95,
+                    "y": 0.05,
+                    "pY": 45.3,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/元件 12",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 3"
+            },
+            {
+              "name": "元件 14",
+              "z": 3,
+              "display": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/元件 14",
+                  "type": "armature"
+                }
+              ],
+              "parent": "元件 14"
+            },
+            {
+              "name": "元件 14_0",
+              "z": 4,
+              "display": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/元件 14",
+                  "type": "armature"
+                }
+              ],
+              "parent": "元件 14_0"
+            },
+            {
+              "name": "元件 14_1",
+              "z": 5,
+              "display": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/元件 14",
+                  "type": "armature"
+                }
+              ],
+              "parent": "元件 14_1"
+            },
+            {
+              "name": "图层 4",
+              "z": 6,
+              "display": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/元件 14",
+                  "type": "armature"
+                }
+              ],
+              "parent": "图层 4"
+            },
+            {
+              "name": "图层 6",
+              "z": 7,
+              "display": [
+                {
+                  "transform": {
+                    "x": -296.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -291.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/kuangfwew",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 6"
+            },
+            {
+              "name": "图层 8",
+              "z": 8,
+              "display": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 45,
+                    "y": 0,
+                    "pY": 45,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/元件 15",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 8"
+            },
+            {
+              "name": "图层 7",
+              "z": 9,
+              "display": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 45,
+                    "y": 0,
+                    "pY": 45,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/元件 16",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 7"
+            }
+          ],
+          "name": "default"
+        }
+      ],
+      "animation": [
+        {
+          "name": "gvfdsvd",
+          "duration": 25,
+          "loop": 1,
+          "fadeInTime": 0,
+          "timeline": [
+            {
+              "name": "图层 2",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 10
+                },
+                {
+                  "z": 0,
+                  "duration": 4,
+                  "transform": {
+                    "x": 4.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 18.9,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 0,
+                  "duration": 1,
+                  "transform": {
+                    "x": -1.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 26.4,
+                    "pY": 0,
+                    "scX": 8.447449,
+                    "skY": 0,
+                    "scY": 8.447449
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 0,
+                    "bO": 0,
+                    "aM": 16,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 10
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "fan",
+              "scale": 1,
+              "frame": [
+                {
+                  "z": 1,
+                  "duration": 2,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 2,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 50.96,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 50.96,
+                    "scY": 1
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 2,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 102.91,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 1.000015,
+                    "skY": 102.91,
+                    "scY": 1.000015
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 2,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 153.63,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 0.999985,
+                    "skY": 153.63,
+                    "scY": 0.999985
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 2,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": -153.9,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 0.999985,
+                    "skY": -153.9,
+                    "scY": 0.999985
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 2,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": -102.41,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 0.999969,
+                    "skY": -102.41,
+                    "scY": 0.999969
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 2,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": -51.71,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 0.999954,
+                    "skY": -51.71,
+                    "scY": 0.999954
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 2,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 2,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 50.96,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 50.96,
+                    "scY": 1
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 2,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 102.91,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 1.000015,
+                    "skY": 102.91,
+                    "scY": 1.000015
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 1,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 153.63,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 0.999985,
+                    "skY": 153.63,
+                    "scY": 0.999985
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 1,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": -153.9,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 0.999985,
+                    "skY": -153.9,
+                    "scY": 0.999985
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 1,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": -102.41,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 0.999969,
+                    "skY": -102.41,
+                    "scY": 0.999969
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 1,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": -51.71,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 0.999954,
+                    "skY": -51.71,
+                    "scY": 0.999954
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "z": 1,
+                  "duration": 1
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 3",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": -15.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 22.6,
+                    "pY": 0,
+                    "scX": 4.370163,
+                    "skY": 0,
+                    "scY": 4.370163
+                  },
+                  "z": 2,
+                  "duration": 2
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 2
+                },
+                {
+                  "transform": {
+                    "x": -15.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 22.6,
+                    "pY": 0,
+                    "scX": 4.370163,
+                    "skY": 0,
+                    "scY": 4.370163
+                  },
+                  "z": 2,
+                  "duration": 4
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 2
+                },
+                {
+                  "transform": {
+                    "x": -15.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 22.6,
+                    "pY": 0,
+                    "scX": 4.370163,
+                    "skY": 0,
+                    "scY": 4.370163
+                  },
+                  "z": 2,
+                  "duration": 4
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 1
+                },
+                {
+                  "transform": {
+                    "x": -15.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 22.6,
+                    "pY": 0,
+                    "scX": 4.370163,
+                    "skY": 0,
+                    "scY": 4.370163
+                  },
+                  "z": 2,
+                  "duration": 4
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 1
+                },
+                {
+                  "transform": {
+                    "x": -15.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 22.6,
+                    "pY": 0,
+                    "scX": 4.370163,
+                    "skY": 0,
+                    "scY": 4.370163
+                  },
+                  "z": 2,
+                  "duration": 3
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 2
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "元件 14",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 3
+                },
+                {
+                  "transform": {
+                    "x": -32.6,
+                    "skX": 101.94,
+                    "pX": 0,
+                    "y": 11.45,
+                    "pY": 0,
+                    "scX": 1.714859,
+                    "skY": 101.94,
+                    "scY": 1.714859
+                  },
+                  "z": 3,
+                  "duration": 6
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 5
+                },
+                {
+                  "transform": {
+                    "x": -32.6,
+                    "skX": 101.94,
+                    "pX": 0,
+                    "y": 11.45,
+                    "pY": 0,
+                    "scX": 1.714859,
+                    "skY": 101.94,
+                    "scY": 1.714859
+                  },
+                  "z": 3,
+                  "duration": 6
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 5
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "元件 14_0",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 1
+                },
+                {
+                  "transform": {
+                    "x": -0.95,
+                    "skX": -19.25,
+                    "pX": 0,
+                    "y": 67.25,
+                    "pY": 0,
+                    "scX": 1.714798,
+                    "skY": -19.25,
+                    "scY": 1.714798
+                  },
+                  "z": 4,
+                  "duration": 6
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 5
+                },
+                {
+                  "transform": {
+                    "x": -0.95,
+                    "skX": -19.25,
+                    "pX": 0,
+                    "y": 67.25,
+                    "pY": 0,
+                    "scX": 1.714798,
+                    "skY": -19.25,
+                    "scY": 1.714798
+                  },
+                  "z": 4,
+                  "duration": 6
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 7
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "元件 14_1",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 4
+                },
+                {
+                  "transform": {
+                    "x": 19.55,
+                    "skX": -165.61,
+                    "pX": 0,
+                    "y": -13.4,
+                    "pY": 0,
+                    "scX": 1.714844,
+                    "skY": -165.61,
+                    "scY": 1.714844
+                  },
+                  "z": 5,
+                  "duration": 6
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 15
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 4",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": 26.4,
+                    "skX": -112.36,
+                    "pX": 0,
+                    "y": 20.65,
+                    "pY": 0,
+                    "scX": 1.714874,
+                    "skY": -112.36,
+                    "scY": 1.714874
+                  },
+                  "z": 6,
+                  "duration": 6
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 4
+                },
+                {
+                  "transform": {
+                    "x": 26.4,
+                    "skX": -112.36,
+                    "pX": 0,
+                    "y": 20.65,
+                    "pY": 0,
+                    "scX": 1.714874,
+                    "skY": -112.36,
+                    "scY": 1.714874
+                  },
+                  "z": 6,
+                  "duration": 6
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 9
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 6",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "z": 7,
+                  "duration": 25
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 8",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 5
+                },
+                {
+                  "z": 8,
+                  "duration": 2,
+                  "transform": {
+                    "x": 2.95,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 5.75,
+                    "pY": 0,
+                    "scX": 5.297333,
+                    "skY": 0,
+                    "scY": 5.297333
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 0,
+                    "bO": 0,
+                    "aM": 80,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 8,
+                  "duration": 1,
+                  "transform": {
+                    "x": 1.45,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 16.3,
+                    "pY": 0,
+                    "scX": 1.132446,
+                    "skY": 0,
+                    "scY": 1.132446
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 2
+                },
+                {
+                  "z": 8,
+                  "duration": 2,
+                  "transform": {
+                    "x": 1.45,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 16.3,
+                    "pY": 0,
+                    "scX": 3.111694,
+                    "skY": 0,
+                    "scY": 3.111694
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 8,
+                  "duration": 4,
+                  "transform": {
+                    "x": 1.45,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 16.3,
+                    "pY": 0,
+                    "scX": 10.86647,
+                    "skY": 0,
+                    "scY": 10.86647
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 0,
+                    "bO": 0,
+                    "aM": 33,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 8,
+                  "duration": 9,
+                  "transform": {
+                    "x": 1.45,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 16.3,
+                    "pY": 0,
+                    "scX": 13.109711,
+                    "skY": 0,
+                    "scY": 13.109711
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 0,
+                    "bO": 0,
+                    "aM": 0,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  }
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 7",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 5
+                },
+                {
+                  "z": 9,
+                  "duration": 2,
+                  "transform": {
+                    "x": 11.6,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 14.65,
+                    "pY": 0,
+                    "scX": 7.135803,
+                    "skY": 0,
+                    "scY": 7.135803
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 0,
+                    "bO": 0,
+                    "aM": 63,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 9,
+                  "duration": 1,
+                  "transform": {
+                    "x": 11.6,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 14.65,
+                    "pY": 0,
+                    "scX": 2.079575,
+                    "skY": 0,
+                    "scY": 2.079575
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 2
+                },
+                {
+                  "z": 9,
+                  "duration": 4,
+                  "transform": {
+                    "x": 11.6,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 14.65,
+                    "pY": 0,
+                    "scX": 2.079575,
+                    "skY": 0,
+                    "scY": 2.079575
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 9,
+                  "duration": 1,
+                  "transform": {
+                    "x": 11.6,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 14.65,
+                    "pY": 0,
+                    "scX": 8.147278,
+                    "skY": 0,
+                    "scY": 8.147278
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 0,
+                    "bO": 0,
+                    "aM": 0,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 10
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "scale": 1,
+          "autoTween": 0,
+          "tweenEasing": null
+        }
+      ]
+    },
+    {
+      "name": "living472/beatC",
+      "bone": [
+        {
+          "transform": {
+            "scY": 1,
+            "x": 4.5,
+            "skX": 0,
+            "scX": 1,
+            "y": 18.9,
+            "skY": 0
+          },
+          "name": "图层 2"
+        },
+        {
+          "transform": {
+            "scY": 1,
+            "x": -4.5,
+            "skX": 0,
+            "scX": 1,
+            "y": 19,
+            "skY": 0
+          },
+          "name": "fan"
+        },
+        {
+          "transform": {
+            "scY": 4.370163,
+            "x": -15.5,
+            "skX": 0,
+            "scX": 4.370163,
+            "y": 22.6,
+            "skY": 0
+          },
+          "name": "图层 3"
+        },
+        {
+          "transform": {
+            "scY": 3.235062,
+            "x": -579.65,
+            "skX": -89.73,
+            "scX": 0.551727,
+            "y": 1576.6,
+            "skY": -89.72
+          },
+          "name": "图层 2   复制 3"
+        },
+        {
+          "transform": {
+            "scY": 1.714859,
+            "x": -32.6,
+            "skX": 101.94,
+            "scX": 1.714859,
+            "y": 11.45,
+            "skY": 101.94
+          },
+          "name": "元件 14"
+        },
+        {
+          "transform": {
+            "scY": 1.714798,
+            "x": -0.95,
+            "skX": -19.25,
+            "scX": 1.714798,
+            "y": 67.25,
+            "skY": -19.25
+          },
+          "name": "元件 14_0"
+        },
+        {
+          "transform": {
+            "scY": 1.714844,
+            "x": 19.55,
+            "skX": -165.61,
+            "scX": 1.714844,
+            "y": -13.4,
+            "skY": -165.61
+          },
+          "name": "元件 14_1"
+        },
+        {
+          "transform": {
+            "scY": 1.714874,
+            "x": 26.4,
+            "skX": -112.36,
+            "scX": 1.714874,
+            "y": 20.65,
+            "skY": -112.36
+          },
+          "name": "图层 4"
+        },
+        {
+          "transform": {
+            "scY": 1,
+            "x": 0,
+            "skX": 0,
+            "scX": 1,
+            "y": 0,
+            "skY": 0
+          },
+          "name": "图层 9"
+        },
+        {
+          "transform": {
+            "scY": 5.297333,
+            "x": 2.95,
+            "skX": 0,
+            "scX": 5.297333,
+            "y": 5.75,
+            "skY": 0
+          },
+          "name": "图层 8"
+        },
+        {
+          "transform": {
+            "scY": 7.135803,
+            "x": 11.6,
+            "skX": 0,
+            "scX": 7.135803,
+            "y": 14.65,
+            "skY": 0
+          },
+          "name": "图层 7"
+        }
+      ],
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "图层 2",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 45,
+                    "y": 0,
+                    "pY": 45,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/元件 4",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 2"
+            },
+            {
+              "name": "fan",
+              "z": 1,
+              "display": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 179,
+                    "y": 0,
+                    "pY": 164.5,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/fsfwfsffs",
+                  "type": "image"
+                }
+              ],
+              "parent": "fan"
+            },
+            {
+              "name": "图层 3",
+              "z": 2,
+              "display": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 41.95,
+                    "y": 0.05,
+                    "pY": 45.3,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/元件 12",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 3"
+            },
+            {
+              "name": "图层 2   复制 3",
+              "z": 3,
+              "display": [
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 0,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 0,
+                    "skY": 0
+                  },
+                  "name": "living472/元件 5",
+                  "type": "armature"
+                }
+              ],
+              "parent": "图层 2   复制 3"
+            },
+            {
+              "name": "元件 14",
+              "z": 4,
+              "display": [
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 0,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 0,
+                    "skY": 0
+                  },
+                  "name": "living472/元件 14",
+                  "type": "armature"
+                }
+              ],
+              "parent": "元件 14"
+            },
+            {
+              "name": "元件 14_0",
+              "z": 5,
+              "display": [
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 0,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 0,
+                    "skY": 0
+                  },
+                  "name": "living472/元件 14",
+                  "type": "armature"
+                }
+              ],
+              "parent": "元件 14_0"
+            },
+            {
+              "name": "元件 14_1",
+              "z": 6,
+              "display": [
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 0,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 0,
+                    "skY": 0
+                  },
+                  "name": "living472/元件 14",
+                  "type": "armature"
+                }
+              ],
+              "parent": "元件 14_1"
+            },
+            {
+              "name": "图层 4",
+              "z": 7,
+              "display": [
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 0,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 0,
+                    "skY": 0
+                  },
+                  "name": "living472/元件 14",
+                  "type": "armature"
+                }
+              ],
+              "parent": "图层 4"
+            },
+            {
+              "name": "图层 9",
+              "z": 8,
+              "display": [
+                {
+                  "transform": {
+                    "x": -296.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -291.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/kuangfwew",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 9"
+            },
+            {
+              "name": "图层 8",
+              "z": 9,
+              "display": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 45,
+                    "y": 0,
+                    "pY": 45,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/元件 15",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 8"
+            },
+            {
+              "name": "图层 7",
+              "z": 10,
+              "display": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 45,
+                    "y": 0,
+                    "pY": 45,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/元件 16",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 7"
+            }
+          ],
+          "name": "default"
+        }
+      ],
+      "animation": [
+        {
+          "name": "hggddfs",
+          "duration": 25,
+          "loop": 1,
+          "fadeInTime": 0,
+          "timeline": [
+            {
+              "name": "图层 2",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 10
+                },
+                {
+                  "z": 0,
+                  "duration": 4,
+                  "transform": {
+                    "x": 4.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 18.9,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 0,
+                  "duration": 1,
+                  "transform": {
+                    "x": -4.55,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 20.45,
+                    "pY": 0,
+                    "scX": 8.447449,
+                    "skY": 0,
+                    "scY": 8.447449
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 0,
+                    "bO": 0,
+                    "aM": 16,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 10
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "fan",
+              "scale": 1,
+              "frame": [
+                {
+                  "z": 1,
+                  "duration": 2,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 2,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 50.96,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 50.96,
+                    "scY": 1
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 2,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 102.91,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 1.000015,
+                    "skY": 102.91,
+                    "scY": 1.000015
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 2,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 153.63,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 0.999985,
+                    "skY": 153.63,
+                    "scY": 0.999985
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 2,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": -153.9,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 0.999985,
+                    "skY": -153.9,
+                    "scY": 0.999985
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 2,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": -102.41,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 0.999969,
+                    "skY": -102.41,
+                    "scY": 0.999969
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 2,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": -51.71,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 0.999954,
+                    "skY": -51.71,
+                    "scY": 0.999954
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 2,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 2,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 50.96,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 50.96,
+                    "scY": 1
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 2,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 102.91,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 1.000015,
+                    "skY": 102.91,
+                    "scY": 1.000015
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 1,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 153.63,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 0.999985,
+                    "skY": 153.63,
+                    "scY": 0.999985
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 1,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": -153.9,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 0.999985,
+                    "skY": -153.9,
+                    "scY": 0.999985
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 1,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": -102.41,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 0.999969,
+                    "skY": -102.41,
+                    "scY": 0.999969
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 1,
+                  "duration": 1,
+                  "transform": {
+                    "x": -4.5,
+                    "skX": -51.71,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 0.999954,
+                    "skY": -51.71,
+                    "scY": 0.999954
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "transform": {
+                    "x": -4.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 19,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "z": 1,
+                  "duration": 1
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 3",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": -15.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 22.6,
+                    "pY": 0,
+                    "scX": 4.370163,
+                    "skY": 0,
+                    "scY": 4.370163
+                  },
+                  "z": 2,
+                  "duration": 2
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 2
+                },
+                {
+                  "transform": {
+                    "x": -15.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 22.6,
+                    "pY": 0,
+                    "scX": 4.370163,
+                    "skY": 0,
+                    "scY": 4.370163
+                  },
+                  "z": 2,
+                  "duration": 4
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 2
+                },
+                {
+                  "transform": {
+                    "x": -15.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 22.6,
+                    "pY": 0,
+                    "scX": 4.370163,
+                    "skY": 0,
+                    "scY": 4.370163
+                  },
+                  "z": 2,
+                  "duration": 4
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 1
+                },
+                {
+                  "transform": {
+                    "x": -15.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 22.6,
+                    "pY": 0,
+                    "scX": 4.370163,
+                    "skY": 0,
+                    "scY": 4.370163
+                  },
+                  "z": 2,
+                  "duration": 4
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 1
+                },
+                {
+                  "transform": {
+                    "x": -15.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 22.6,
+                    "pY": 0,
+                    "scX": 4.370163,
+                    "skY": 0,
+                    "scY": 4.370163
+                  },
+                  "z": 2,
+                  "duration": 3
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 2
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 2   复制 3",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 2
+                },
+                {
+                  "transform": {
+                    "x": -579.65,
+                    "skX": -89.73,
+                    "pX": 0,
+                    "y": 1576.6,
+                    "pY": 0,
+                    "scX": 0.551727,
+                    "skY": -89.72,
+                    "scY": 3.235062
+                  },
+                  "z": 3,
+                  "duration": 8
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 15
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "元件 14",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 3
+                },
+                {
+                  "transform": {
+                    "x": -32.6,
+                    "skX": 101.94,
+                    "pX": 0,
+                    "y": 11.45,
+                    "pY": 0,
+                    "scX": 1.714859,
+                    "skY": 101.94,
+                    "scY": 1.714859
+                  },
+                  "z": 4,
+                  "duration": 6
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 5
+                },
+                {
+                  "transform": {
+                    "x": -32.6,
+                    "skX": 101.94,
+                    "pX": 0,
+                    "y": 11.45,
+                    "pY": 0,
+                    "scX": 1.714859,
+                    "skY": 101.94,
+                    "scY": 1.714859
+                  },
+                  "z": 4,
+                  "duration": 6
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 5
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "元件 14_0",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 1
+                },
+                {
+                  "transform": {
+                    "x": -0.95,
+                    "skX": -19.25,
+                    "pX": 0,
+                    "y": 67.25,
+                    "pY": 0,
+                    "scX": 1.714798,
+                    "skY": -19.25,
+                    "scY": 1.714798
+                  },
+                  "z": 5,
+                  "duration": 6
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 5
+                },
+                {
+                  "transform": {
+                    "x": -0.95,
+                    "skX": -19.25,
+                    "pX": 0,
+                    "y": 67.25,
+                    "pY": 0,
+                    "scX": 1.714798,
+                    "skY": -19.25,
+                    "scY": 1.714798
+                  },
+                  "z": 5,
+                  "duration": 6
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 7
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "元件 14_1",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 4
+                },
+                {
+                  "transform": {
+                    "x": 19.55,
+                    "skX": -165.61,
+                    "pX": 0,
+                    "y": -13.4,
+                    "pY": 0,
+                    "scX": 1.714844,
+                    "skY": -165.61,
+                    "scY": 1.714844
+                  },
+                  "z": 6,
+                  "duration": 6
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 15
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 4",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": 26.4,
+                    "skX": -112.36,
+                    "pX": 0,
+                    "y": 20.65,
+                    "pY": 0,
+                    "scX": 1.714874,
+                    "skY": -112.36,
+                    "scY": 1.714874
+                  },
+                  "z": 7,
+                  "duration": 6
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 4
+                },
+                {
+                  "transform": {
+                    "x": 26.4,
+                    "skX": -112.36,
+                    "pX": 0,
+                    "y": 20.65,
+                    "pY": 0,
+                    "scX": 1.714874,
+                    "skY": -112.36,
+                    "scY": 1.714874
+                  },
+                  "z": 7,
+                  "duration": 6
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 9
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 9",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "z": 8,
+                  "duration": 25
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 8",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 5
+                },
+                {
+                  "z": 9,
+                  "duration": 2,
+                  "transform": {
+                    "x": 2.95,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 5.75,
+                    "pY": 0,
+                    "scX": 5.297333,
+                    "skY": 0,
+                    "scY": 5.297333
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 0,
+                    "bO": 0,
+                    "aM": 80,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 9,
+                  "duration": 1,
+                  "transform": {
+                    "x": 1.45,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 16.3,
+                    "pY": 0,
+                    "scX": 1.132446,
+                    "skY": 0,
+                    "scY": 1.132446
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 2
+                },
+                {
+                  "z": 9,
+                  "duration": 2,
+                  "transform": {
+                    "x": 1.45,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 16.3,
+                    "pY": 0,
+                    "scX": 3.111694,
+                    "skY": 0,
+                    "scY": 3.111694
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 9,
+                  "duration": 4,
+                  "transform": {
+                    "x": 1.45,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 16.3,
+                    "pY": 0,
+                    "scX": 10.86647,
+                    "skY": 0,
+                    "scY": 10.86647
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 0,
+                    "bO": 0,
+                    "aM": 33,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 9,
+                  "duration": 9,
+                  "transform": {
+                    "x": 1.45,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 16.3,
+                    "pY": 0,
+                    "scX": 13.109711,
+                    "skY": 0,
+                    "scY": 13.109711
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 0,
+                    "bO": 0,
+                    "aM": 0,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  }
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 7",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 5
+                },
+                {
+                  "z": 10,
+                  "duration": 2,
+                  "transform": {
+                    "x": 11.6,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 14.65,
+                    "pY": 0,
+                    "scX": 7.135803,
+                    "skY": 0,
+                    "scY": 7.135803
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 0,
+                    "bO": 0,
+                    "aM": 63,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 10,
+                  "duration": 1,
+                  "transform": {
+                    "x": 11.6,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 14.65,
+                    "pY": 0,
+                    "scX": 2.079575,
+                    "skY": 0,
+                    "scY": 2.079575
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 2
+                },
+                {
+                  "z": 10,
+                  "duration": 4,
+                  "transform": {
+                    "x": 11.6,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 14.65,
+                    "pY": 0,
+                    "scX": 2.079575,
+                    "skY": 0,
+                    "scY": 2.079575
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "z": 10,
+                  "duration": 1,
+                  "transform": {
+                    "x": 11.6,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 14.65,
+                    "pY": 0,
+                    "scX": 8.147278,
+                    "skY": 0,
+                    "scY": 8.147278
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "gO": 0,
+                    "bO": 0,
+                    "aM": 0,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0
+                  },
+                  "tweenEasing": 0
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 10
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "scale": 1,
+          "autoTween": 0,
+          "tweenEasing": null
+        }
+      ]
+    },
+    {
+      "name": "living472/元件 6",
+      "bone": [
+        {
+          "transform": {
+            "scY": 1,
+            "x": 7.25,
+            "skX": 0,
+            "scX": 1,
+            "y": -1.25,
+            "skY": 0
+          },
+          "name": "图层 1"
+        }
+      ],
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "图层 1",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "x": -45,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -41,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/fan1_0000.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -45,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -41,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/fan1.png",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 1"
+            }
+          ],
+          "name": "default"
+        }
+      ],
+      "animation": [
+        {
+          "name": "dfdgssfs",
+          "duration": 4,
+          "loop": 0,
+          "fadeInTime": 0,
+          "timeline": [
+            {
+              "name": "图层 1",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": 7.25,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -1.25,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "z": 0,
+                  "duration": 2
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 1,
+                  "transform": {
+                    "x": 3.9,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -1.1,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 2
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "scale": 1,
+          "autoTween": 0,
+          "tweenEasing": null
+        }
+      ]
+    },
+    {
+      "name": "living472/元件 1",
+      "bone": [
+        {
+          "transform": {
+            "scY": 3.082336,
+            "x": -11.95,
+            "skX": 0,
+            "scX": 3.082336,
+            "y": 0,
+            "skY": 0
+          },
+          "name": "图层 1"
+        }
+      ],
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "图层 1",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "x": -100,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -98.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/红.png",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 1"
+            }
+          ],
+          "name": "default"
+        }
+      ],
+      "animation": [
+        {
+          "name": "ccssa",
+          "duration": 2,
+          "loop": 0,
+          "fadeInTime": 0,
+          "timeline": [
+            {
+              "name": "图层 1",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": -11.95,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 0,
+                    "pY": 0,
+                    "scX": 3.082336,
+                    "skY": 0,
+                    "scY": 3.082336
+                  },
+                  "z": 0,
+                  "duration": 1
+                },
+                {
+                  "transform": {
+                    "x": 14.05,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 0,
+                    "pY": 0,
+                    "scX": 3.082336,
+                    "skY": 0,
+                    "scY": 3.082336
+                  },
+                  "z": 0,
+                  "duration": 1
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "scale": 1,
+          "autoTween": 0,
+          "tweenEasing": 2
+        }
+      ]
+    },
+    {
+      "name": "living472/元件 18",
+      "bone": [
+        {
+          "transform": {
+            "scY": 1,
+            "x": -8.8,
+            "skX": 0,
+            "scX": 1,
+            "y": -1.5,
+            "skY": 0
+          },
+          "name": "图层 1"
+        }
+      ],
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "图层 1",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "x": -33.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -36,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/fffvfdefs",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -40,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -38,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/sdgesdgs",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -43,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -39,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/vfesvdvdfv",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -45,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -40.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/gfdhbtbnfb",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -45.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -41.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/tghrtghbtrg",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -46.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -42.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/htbnnbgfb",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -46.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -44,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/rdsgrebhrebd",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -46,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -45,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/hrtgegge",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 1"
+            }
+          ],
+          "name": "default"
+        }
+      ],
+      "animation": [
+        {
+          "name": "bnghdfdhfbf",
+          "duration": 54,
+          "loop": 0,
+          "fadeInTime": 0,
+          "timeline": [
+            {
+              "name": "图层 1",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": -8.8,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -1.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "z": 0,
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 1,
+                  "transform": {
+                    "x": -2.3,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 0.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 2,
+                  "transform": {
+                    "x": 0.7,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 1.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 3,
+                  "transform": {
+                    "x": 2.7,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 3,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 4,
+                  "transform": {
+                    "x": 3.2,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 4,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 5,
+                  "transform": {
+                    "x": 4.2,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 6,
+                  "transform": {
+                    "x": 4.2,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 6.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 7,
+                  "transform": {
+                    "x": 3.7,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 7.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 1
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 46
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "scale": 1,
+          "autoTween": 0,
+          "tweenEasing": null
+        }
+      ]
+    },
+    {
+      "name": "living472/元件 2",
+      "bone": [
+        {
+          "transform": {
+            "scY": 1.221863,
+            "x": 2.1,
+            "skX": 0,
+            "scX": 1.221863,
+            "y": -2.35,
+            "skY": 0
+          },
+          "name": "图层 2"
+        }
+      ],
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "图层 2",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "x": -15,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -24,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/滴_0000.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -15,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -24,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/滴_0001.png",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 2"
+            }
+          ],
+          "name": "default"
+        }
+      ],
+      "animation": [
+        {
+          "name": "freerdgregdd",
+          "duration": 27,
+          "loop": 0,
+          "fadeInTime": 0,
+          "timeline": [
+            {
+              "name": "图层 2",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": 2.1,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -2.35,
+                    "pY": 0,
+                    "scX": 1.221863,
+                    "skY": 0,
+                    "scY": 1.221863
+                  },
+                  "z": 0,
+                  "duration": 2
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 1,
+                  "transform": {
+                    "x": 7.8,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 31.05,
+                    "pY": 0,
+                    "scX": 1.221863,
+                    "skY": 0,
+                    "scY": 1.221863
+                  },
+                  "duration": 2
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 23
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "scale": 1,
+          "autoTween": 0,
+          "tweenEasing": null
+        }
+      ]
+    },
+    {
+      "name": "living472/元件 10",
+      "bone": [
+        {
+          "transform": {
+            "scY": 4.012985,
+            "x": 42.55,
+            "skX": 0,
+            "scX": 4.012985,
+            "y": 3,
+            "skY": 0
+          },
+          "name": "图层 1"
+        }
+      ],
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "图层 1",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "x": -45,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -38.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/受击_0000.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -45,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -38.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/受击_0001.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -45,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -38.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/受击_0002.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -45,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -38.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/受击_0003.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -45,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -38.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/受击_0004.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -45,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -38.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/受击_0005.png",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 1"
+            }
+          ],
+          "name": "default"
+        }
+      ],
+      "animation": [
+        {
+          "name": "rrghdgrg",
+          "duration": 25,
+          "loop": 0,
+          "fadeInTime": 0,
+          "timeline": [
+            {
+              "name": "图层 1",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": 42.55,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 3,
+                    "pY": 0,
+                    "scX": 4.012985,
+                    "skY": 0,
+                    "scY": 4.012985
+                  },
+                  "z": 0,
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 1,
+                  "transform": {
+                    "x": 42.55,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 3,
+                    "pY": 0,
+                    "scX": 4.012985,
+                    "skY": 0,
+                    "scY": 4.012985
+                  },
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 2,
+                  "transform": {
+                    "x": 42.55,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 3,
+                    "pY": 0,
+                    "scX": 4.012985,
+                    "skY": 0,
+                    "scY": 4.012985
+                  },
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 3,
+                  "transform": {
+                    "x": 42.55,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 3,
+                    "pY": 0,
+                    "scX": 4.012985,
+                    "skY": 0,
+                    "scY": 4.012985
+                  },
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 4,
+                  "transform": {
+                    "x": 42.55,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 3,
+                    "pY": 0,
+                    "scX": 4.012985,
+                    "skY": 0,
+                    "scY": 4.012985
+                  },
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 5,
+                  "transform": {
+                    "x": 42.55,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 3,
+                    "pY": 0,
+                    "scX": 4.012985,
+                    "skY": 0,
+                    "scY": 4.012985
+                  },
+                  "duration": 1
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 19
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "scale": 1,
+          "autoTween": 0,
+          "tweenEasing": null
+        }
+      ]
+    },
+    {
+      "name": "living472/元件 8",
+      "bone": [
+        {
+          "transform": {
+            "scY": 1,
+            "x": 2,
+            "skX": 0,
+            "scX": 1,
+            "y": 1.5,
+            "skY": 0
+          },
+          "name": "图层 1"
+        }
+      ],
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "图层 1",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "x": -46,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -47,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/0_0000.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -46,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -47,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/0_0001.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -46,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -47,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/0_0002.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -46,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -47,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/0_0003.png",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 1"
+            }
+          ],
+          "name": "default"
+        }
+      ],
+      "animation": [
+        {
+          "name": "httedd",
+          "duration": 17,
+          "loop": 0,
+          "fadeInTime": 0,
+          "timeline": [
+            {
+              "name": "图层 1",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": 2,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 1.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "z": 0,
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 1,
+                  "transform": {
+                    "x": 2,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 1.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 2,
+                  "transform": {
+                    "x": 2,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 1.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 3,
+                  "transform": {
+                    "x": 2,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 1.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 1
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 13
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "scale": 1,
+          "autoTween": 0,
+          "tweenEasing": null
+        }
+      ]
+    },
+    {
+      "name": "living472/元件 14",
+      "bone": [
+        {
+          "transform": {
+            "scY": 1,
+            "x": 0,
+            "skX": 0,
+            "scX": 1,
+            "y": 49.25,
+            "skY": 0
+          },
+          "name": "图层 1"
+        }
+      ],
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "图层 1",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "x": -12.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -50,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/dian_0000.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -12.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -50,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/dian_0001.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -12.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -50,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/dian_0002.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -12.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -50,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/dian_0003.png",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 1"
+            }
+          ],
+          "name": "default"
+        }
+      ],
+      "animation": [
+        {
+          "name": "bbdrdgdfggf",
+          "duration": 7,
+          "loop": 0,
+          "fadeInTime": 0,
+          "timeline": [
+            {
+              "name": "图层 1",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 49.25,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "z": 0,
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 1,
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 49.25,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 1
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 2,
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 49.25,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 3,
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 49.25,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 1
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 2
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "scale": 1,
+          "autoTween": 0,
+          "tweenEasing": null
+        }
+      ]
+    },
+    {
+      "name": "living472/元件 5",
+      "bone": [
+        {
+          "transform": {
+            "scY": 1,
+            "x": 146,
+            "skX": 0,
+            "scX": 1,
+            "y": -1.15,
+            "skY": 0
+          },
+          "name": "图层 1"
+        }
+      ],
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "图层 1",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "x": -144.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -50.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/ghrthbgf",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -105.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -41.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/5.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -109,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -20.5,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/6.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -15,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -13,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living472/7.png",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 1"
+            }
+          ],
+          "name": "default"
+        }
+      ],
+      "animation": [
+        {
+          "name": "unnamed",
+          "duration": 11,
+          "loop": 0,
+          "fadeInTime": 0,
+          "timeline": [
+            {
+              "name": "图层 1",
+              "scale": 1,
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 7
+                },
+                {
+                  "transform": {
+                    "x": 146,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -1.15,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "z": 0,
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 1,
+                  "transform": {
+                    "x": 107,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -1.05,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 2,
+                  "transform": {
+                    "x": 110.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 0.7,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 3,
+                  "transform": {
+                    "x": 16.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -2.25,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 1
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "scale": 1,
+          "autoTween": 0,
+          "tweenEasing": null
+        }
+      ]
+    }
+  ],
+  "name": "game_living_Living472",
+  "version": 2.3
+}

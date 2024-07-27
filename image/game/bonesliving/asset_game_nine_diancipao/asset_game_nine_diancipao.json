@@ -1,0 +1,613 @@
+{
+  "frameRate": 24,
+  "armature": [
+    {
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "图层 1",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "x": -132.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -101.15,
+                    "scX": 0.55629,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 0.55629
+                  },
+                  "name": "gameNineDiancipaoRes/d20001",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -213.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -168.15,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "gameNineDiancipaoRes/d20002.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -213.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -168.15,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "gameNineDiancipaoRes/d20003",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -213.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -168.15,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "gameNineDiancipaoRes/d20004.png",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -213.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -168.15,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "gameNineDiancipaoRes/d20005",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -213.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -168.15,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "gameNineDiancipaoRes/d20006",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -213.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -168.15,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "gameNineDiancipaoRes/d20007",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -213.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -168.15,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "gameNineDiancipaoRes/d20008",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -213.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -168.15,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "gameNineDiancipaoRes/d20009",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -213.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -168.15,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "gameNineDiancipaoRes/d20010",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -213.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -168.15,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "gameNineDiancipaoRes/hgjdg",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -213.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -168.15,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "gameNineDiancipaoRes/d20012",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -213.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -168.15,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "gameNineDiancipaoRes/d20013",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -213.5,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": -168.15,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "gameNineDiancipaoRes/d20014",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 1"
+            }
+          ],
+          "name": "default"
+        }
+      ],
+      "name": "asset_game_nine_diancipao",
+      "bone": [
+        {
+          "transform": {
+            "scY": 1,
+            "x": 17.95,
+            "skX": 0,
+            "scX": 1,
+            "y": 20.15,
+            "skY": 0
+          },
+          "name": "图层 1"
+        }
+      ],
+      "animation": [
+        {
+          "name": "default",
+          "scale": 1,
+          "loop": 1,
+          "frame": [
+            { "duration": 1 },
+            {
+              "event": "sound_BattleSound01",
+              "duration": 17
+            }
+          ],
+          "fadeInTime": 0,
+          "timeline": [
+            {
+              "name": "图层 1",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": 17.95,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 20.15,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "z": 0,
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 1,
+                  "transform": {
+                    "x": 17.95,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 20.15,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 2,
+                  "transform": {
+                    "x": 17.95,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 20.15,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 3,
+                  "transform": {
+                    "x": 17.95,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 20.15,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 4,
+                  "transform": {
+                    "x": 17.95,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 20.15,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 5,
+                  "transform": {
+                    "x": 17.95,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 20.15,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 6,
+                  "transform": {
+                    "x": 17.95,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 20.15,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 7,
+                  "transform": {
+                    "x": 17.95,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 20.15,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 7,
+                  "transform": {
+                    "x": 4.9,
+                    "skX": 168.55,
+                    "pX": 18.949,
+                    "y": 4.1,
+                    "scX": 1,
+                    "pY": 18.9,
+                    "skY": 168.55,
+                    "scY": 1
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0,
+                    "aM": 82,
+                    "gO": 0,
+                    "bO": 0
+                  },
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 8,
+                  "transform": {
+                    "x": 17.95,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 20.15,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0,
+                    "aM": 80,
+                    "gO": 0,
+                    "bO": 0
+                  },
+                  "tweenEasing": 0,
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 9,
+                  "transform": {
+                    "x": 17.95,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 20.15,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0,
+                    "aM": 69,
+                    "gO": 0,
+                    "bO": 0
+                  },
+                  "tweenEasing": 0,
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 10,
+                  "transform": {
+                    "x": 17.95,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 20.15,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0,
+                    "aM": 57,
+                    "gO": 0,
+                    "bO": 0
+                  },
+                  "tweenEasing": 0,
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 11,
+                  "transform": {
+                    "x": 17.95,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 20.15,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0,
+                    "aM": 46,
+                    "gO": 0,
+                    "bO": 0
+                  },
+                  "tweenEasing": 0,
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 12,
+                  "transform": {
+                    "x": 17.95,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 20.15,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0,
+                    "aM": 34,
+                    "gO": 0,
+                    "bO": 0
+                  },
+                  "tweenEasing": 0,
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 13,
+                  "transform": {
+                    "x": 17.95,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 20.15,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0,
+                    "aM": 23,
+                    "gO": 0,
+                    "bO": 0
+                  },
+                  "tweenEasing": 0,
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "transform": {
+                    "x": 17.95,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 20.15,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0,
+                    "aM": 11,
+                    "gO": 0,
+                    "bO": 0
+                  },
+                  "tweenEasing": 0,
+                  "duration": 1
+                },
+                {
+                  "z": 0,
+                  "transform": {
+                    "x": 17.95,
+                    "skX": 0,
+                    "pX": 0,
+                    "y": 20.15,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "colorTransform": {
+                    "bM": 100,
+                    "rM": 100,
+                    "aO": 0,
+                    "gM": 100,
+                    "rO": 0,
+                    "aM": 0,
+                    "gO": 0,
+                    "bO": 0
+                  },
+                  "duration": 1
+                },
+                {
+                  "displayIndex": -1,
+                  "duration": 1
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "autoTween": 0,
+          "tweenEasing": null,
+          "duration": 18
+        }
+      ]
+    }
+  ],
+  "name": "asset_game_nine_diancipao",
+  "version": 2.3
+}

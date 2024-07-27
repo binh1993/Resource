@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:6bd198cbaaea6a59227c7cb3f39d3dd5:1/1$ -->
+<TextureAtlas imagePath="asset_game_fifteen_472b.png">
+    <SubTexture name="472B/风3_0004.png" x="2" y="89" width="100" height="81" frameX="0" frameY="-2" frameWidth="100" frameHeight="87"/>
+    <SubTexture name="472B/风3_0008.png" x="2" y="172" width="96" height="77" frameX="0" frameY="-6" frameWidth="100" frameHeight="87"/>
+    <SubTexture name="472B/风3_0015.png" x="104" y="2" width="100" height="85" frameX="0" frameY="0" frameWidth="100" frameHeight="87"/>
+    <SubTexture name="472B/风3_0017.png" x="2" y="2" width="100" height="85" frameX="0" frameY="-2" frameWidth="100" frameHeight="87"/>
+</TextureAtlas>

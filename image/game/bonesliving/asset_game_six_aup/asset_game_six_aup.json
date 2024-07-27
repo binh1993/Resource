@@ -1,0 +1,772 @@
+{
+  "frameRate": 24,
+  "armature": [
+    {
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "Layer 8",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 0,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 0,
+                    "skY": 0
+                  },
+                  "name": "gameSixAup/1231",
+                  "type": "armature"
+                }
+              ],
+              "blendMode": "add",
+              "parent": "Layer 8"
+            },
+            {
+              "name": "Layer 4",
+              "z": 1,
+              "display": [
+                {
+                  "transform": {
+                    "scY": 1,
+                    "x": 0,
+                    "skX": 0,
+                    "scX": 1,
+                    "y": 0,
+                    "skY": 0
+                  },
+                  "name": "gameSixAup/sdw",
+                  "type": "armature"
+                }
+              ],
+              "parent": "Layer 4"
+            },
+            {
+              "name": "图层 10",
+              "z": 2,
+              "display": [
+                {
+                  "transform": {
+                    "x": -47.6,
+                    "skX": 0,
+                    "y": -36.55,
+                    "pX": 0,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "元件 2",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 10"
+            }
+          ],
+          "name": "default"
+        }
+      ],
+      "name": "asset_game_six_aup",
+      "bone": [
+        {
+          "transform": {
+            "scY": 2.243942,
+            "x": 2.6,
+            "skX": 0,
+            "scX": 2.243942,
+            "y": 0.25,
+            "skY": 0
+          },
+          "name": "Layer 8"
+        },
+        {
+          "transform": {
+            "scY": 0.273422,
+            "x": -0.5,
+            "skX": 0,
+            "scX": 0.273422,
+            "y": -0.5,
+            "skY": 0
+          },
+          "name": "Layer 4"
+        },
+        {
+          "transform": {
+            "scY": 0.410751,
+            "x": 0.95,
+            "skX": 0,
+            "scX": 0.410751,
+            "y": 2.25,
+            "skY": 0
+          },
+          "name": "图层 10"
+        }
+      ],
+      "animation": [
+        {
+          "name": "default",
+          "scale": 1,
+          "loop": 1,
+          "duration": 35,
+          "frame": [
+            { "duration": 1 },
+            {
+              "duration": 34,
+              "event": "sound_BattleSound04"
+            }
+          ],
+          "tweenEasing": null,
+          "timeline": [
+            {
+              "name": "Layer 8",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": 2.6,
+                    "skX": 0,
+                    "y": 0.25,
+                    "pX": 0,
+                    "scX": 2.243942,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 2.243942
+                  },
+                  "z": 0,
+                  "duration": 13
+                },
+                {
+                  "duration": 22,
+                  "displayIndex": -1
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "Layer 4",
+              "scale": 1,
+              "frame": [
+                {
+                  "duration": 3,
+                  "displayIndex": -1
+                },
+                {
+                  "transform": {
+                    "x": -0.5,
+                    "skX": 0,
+                    "y": -0.5,
+                    "pX": 0,
+                    "scX": 0.273422,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 0.273422
+                  },
+                  "z": 1,
+                  "duration": 1
+                },
+                {
+                  "transform": {
+                    "x": -0.5,
+                    "skX": 0,
+                    "y": -14.1,
+                    "pX": 0,
+                    "scX": 0.448151,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 0.448151
+                  },
+                  "z": 1,
+                  "duration": 1
+                },
+                {
+                  "transform": {
+                    "x": -0.6,
+                    "skX": 0,
+                    "y": -27.8,
+                    "pX": 0,
+                    "scX": 0.622879,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 0.622879
+                  },
+                  "z": 1,
+                  "duration": 1
+                },
+                {
+                  "transform": {
+                    "x": -0.6,
+                    "skX": 0,
+                    "y": -41.4,
+                    "pX": 0,
+                    "scX": 0.797607,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 0.797607
+                  },
+                  "z": 1,
+                  "duration": 1
+                },
+                {
+                  "transform": {
+                    "x": -0.65,
+                    "skX": 0,
+                    "y": -55.1,
+                    "pX": 0,
+                    "scX": 0.972336,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 0.972336
+                  },
+                  "z": 1,
+                  "duration": 1
+                },
+                {
+                  "transform": {
+                    "x": -0.7,
+                    "skX": 0,
+                    "y": -68.75,
+                    "pX": 0,
+                    "scX": 1.147064,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1.147064
+                  },
+                  "z": 1,
+                  "duration": 1
+                },
+                {
+                  "transform": {
+                    "x": -0.7,
+                    "skX": 0,
+                    "y": -82.35,
+                    "pX": 0,
+                    "scX": 1.321777,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1.321777
+                  },
+                  "z": 1,
+                  "duration": 1
+                },
+                {
+                  "transform": {
+                    "x": -0.8,
+                    "skX": 0,
+                    "y": -96.05,
+                    "pX": 0,
+                    "scX": 1.496521,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1.496521
+                  },
+                  "z": 1,
+                  "duration": 1
+                },
+                {
+                  "transform": {
+                    "x": -0.85,
+                    "skX": 0,
+                    "y": -109.7,
+                    "pX": 0,
+                    "scX": 1.671249,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1.671249
+                  },
+                  "z": 1,
+                  "duration": 19
+                },
+                {
+                  "transform": {
+                    "x": -0.85,
+                    "skX": 0,
+                    "y": -109.7,
+                    "pX": 0,
+                    "scX": 1.671249,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1.671249
+                  },
+                  "z": 1,
+                  "duration": 1
+                },
+                {
+                  "z": 1,
+                  "transform": {
+                    "x": -0.85,
+                    "skX": 0,
+                    "y": -109.7,
+                    "pX": 0,
+                    "scX": 1.671249,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1.671249
+                  },
+                  "colorTransform": {
+                    "rM": 100,
+                    "gM": 100,
+                    "rO": 0,
+                    "bM": 100,
+                    "gO": 0,
+                    "aO": 0,
+                    "bO": 0,
+                    "aM": 75
+                  },
+                  "duration": 1
+                },
+                {
+                  "z": 1,
+                  "transform": {
+                    "x": -0.85,
+                    "skX": 0,
+                    "y": -109.7,
+                    "pX": 0,
+                    "scX": 1.671249,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1.671249
+                  },
+                  "colorTransform": {
+                    "rM": 100,
+                    "gM": 100,
+                    "rO": 0,
+                    "bM": 100,
+                    "gO": 0,
+                    "aO": 0,
+                    "bO": 0,
+                    "aM": 50
+                  },
+                  "duration": 1
+                },
+                {
+                  "z": 1,
+                  "transform": {
+                    "x": -0.85,
+                    "skX": 0,
+                    "y": -109.7,
+                    "pX": 0,
+                    "scX": 1.671249,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1.671249
+                  },
+                  "colorTransform": {
+                    "rM": 100,
+                    "gM": 100,
+                    "rO": 0,
+                    "bM": 100,
+                    "gO": 0,
+                    "aO": 0,
+                    "bO": 0,
+                    "aM": 25
+                  },
+                  "duration": 1
+                },
+                {
+                  "duration": 1,
+                  "displayIndex": -1
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "图层 10",
+              "scale": 1,
+              "frame": [
+                {
+                  "duration": 3,
+                  "displayIndex": -1
+                },
+                {
+                  "z": 2,
+                  "transform": {
+                    "x": 0.95,
+                    "skX": 0,
+                    "y": 2.25,
+                    "pX": 0,
+                    "scX": 0.410751,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 0.410751
+                  },
+                  "duration": 8,
+                  "tweenEasing": 0
+                },
+                {
+                  "transform": {
+                    "x": -1.55,
+                    "skX": 0,
+                    "y": -101.55,
+                    "pX": 0.1,
+                    "scX": 1,
+                    "pY": 0.05,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "z": 2,
+                  "duration": 23
+                },
+                {
+                  "duration": 1,
+                  "displayIndex": -1
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "autoTween": 0,
+          "fadeInTime": 0
+        }
+      ]
+    },
+    {
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "图层 1",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "x": -40,
+                    "skX": 0,
+                    "y": -40,
+                    "pX": 0,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "gameSixAup/ss0001",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -40,
+                    "skX": 0,
+                    "y": -40,
+                    "pX": 0,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "gameSixAup/ss0003",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -40,
+                    "skX": 0,
+                    "y": -40,
+                    "pX": 0,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "gameSixAup/ss0005",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -40,
+                    "skX": 0,
+                    "y": -40,
+                    "pX": 0,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "gameSixAup/ss0007",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -40,
+                    "skX": 0,
+                    "y": -40,
+                    "pX": 0,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "gameSixAup/ss0009",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -40,
+                    "skX": 0,
+                    "y": -40,
+                    "pX": 0,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "gameSixAup/ss0011",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -40,
+                    "skX": 0,
+                    "y": -40,
+                    "pX": 0,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "gameSixAup/ss0013",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 1"
+            }
+          ],
+          "name": "default"
+        }
+      ],
+      "name": "gameSixAup/1231",
+      "bone": [
+        {
+          "transform": {
+            "scY": 1,
+            "x": 0,
+            "skX": 0,
+            "scX": 1,
+            "y": 0,
+            "skY": 0
+          },
+          "name": "图层 1"
+        }
+      ],
+      "animation": [
+        {
+          "name": "zxcas11",
+          "scale": 1,
+          "loop": 1,
+          "duration": 13,
+          "fadeInTime": 0,
+          "timeline": [
+            {
+              "name": "图层 1",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "y": 0,
+                    "pX": 0,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "z": 0,
+                  "duration": 2
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 1,
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "y": 0,
+                    "pX": 0,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 2
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 2,
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "y": 0,
+                    "pX": 0,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 2
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 3,
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "y": 0,
+                    "pX": 0,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 2
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 4,
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "y": 0,
+                    "pX": 0,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 2
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 5,
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "y": 0,
+                    "pX": 0,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 2
+                },
+                {
+                  "z": 0,
+                  "displayIndex": 6,
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "y": 0,
+                    "pX": 0,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "duration": 1
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "autoTween": 1,
+          "tweenEasing": null
+        }
+      ]
+    },
+    {
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "Layer 2",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "x": -40,
+                    "skX": 0,
+                    "y": -40,
+                    "pX": 0,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "gameSixAup/asdf",
+                  "type": "image"
+                }
+              ],
+              "parent": "Layer 2"
+            }
+          ],
+          "name": "default"
+        }
+      ],
+      "name": "gameSixAup/sdw",
+      "bone": [
+        {
+          "transform": {
+            "scY": 1,
+            "x": 0,
+            "skX": 0,
+            "scX": 1,
+            "y": 0,
+            "skY": 0
+          },
+          "name": "Layer 2"
+        }
+      ],
+      "animation": [
+        {
+          "name": "zxcas1",
+          "scale": 5,
+          "loop": 0,
+          "duration": 2,
+          "fadeInTime": 0,
+          "timeline": [
+            {
+              "name": "Layer 2",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "y": 0,
+                    "pX": 0,
+                    "scX": 1,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "z": 0,
+                  "duration": 1
+                },
+                {
+                  "transform": {
+                    "x": 0,
+                    "skX": 0,
+                    "y": 0,
+                    "pX": 0,
+                    "scX": 0.910004,
+                    "pY": 0,
+                    "skY": 0,
+                    "scY": 0.910004
+                  },
+                  "z": 0,
+                  "duration": 1
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "autoTween": 1,
+          "tweenEasing": 2
+        }
+      ]
+    }
+  ],
+  "name": "asset_game_six_aup",
+  "version": 2.3
+}

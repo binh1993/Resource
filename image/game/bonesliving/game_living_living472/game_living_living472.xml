@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:96d4db9723b8802d09bd2e73517e13b5:3c53d0687ec41e8757207be3d9199754:0e9dbfbceb97ab6f8e501a8b6658f81d$ -->
+<TextureAtlas imagePath="game_living_Living472.png">
+    <SubTexture name="living472/0_0000.png" x="2" y="897" width="92" height="88" frameX="0" frameY="-3" frameWidth="92" frameHeight="94"/>
+    <SubTexture name="living472/0_0001.png" x="2" y="709" width="92" height="94"/>
+    <SubTexture name="living472/0_0002.png" x="691" y="564" width="92" height="94"/>
+    <SubTexture name="living472/0_0003.png" x="597" y="564" width="92" height="94"/>
+    <SubTexture name="living472/5.png" x="597" y="479" width="211" height="83"/>
+    <SubTexture name="living472/6.png" x="597" y="436" width="218" height="41"/>
+    <SubTexture name="living472/7.png" x="957" y="52" width="30" height="26"/>
+    <SubTexture name="living472/dian_0000.png" x="957" y="182" width="25" height="100"/>
+    <SubTexture name="living472/dian_0001.png" x="984" y="154" width="25" height="100"/>
+    <SubTexture name="living472/dian_0002.png" x="957" y="80" width="25" height="100"/>
+    <SubTexture name="living472/dian_0003.png" x="989" y="52" width="25" height="100"/>
+    <SubTexture name="living472/fan1.png" x="188" y="587" width="90" height="82"/>
+    <SubTexture name="living472/fan1_0000.png" x="96" y="587" width="90" height="82"/>
+    <SubTexture name="living472/fffvfdefs" x="817" y="436" width="67" height="72"/>
+    <SubTexture name="living472/fsfsfsfs" x="2" y="2" width="593" height="583"/>
+    <SubTexture name="living472/fsfwfsffs" x="597" y="2" width="358" height="329"/>
+    <SubTexture name="living472/gfdhbtbnfb" x="96" y="895" width="90" height="81"/>
+    <SubTexture name="living472/ghrthbgf" x="597" y="333" width="289" height="101"/>
+    <SubTexture name="living472/hrtgegge" x="2" y="587" width="92" height="90"/>
+    <SubTexture name="living472/htbnnbgfb" x="888" y="423" width="93" height="85"/>
+    <SubTexture name="living472/kuangfwew" x="2" y="2" width="593" height="583"/>
+    <SubTexture name="living472/rdsgrebhrebd" x="888" y="333" width="93" height="88"/>
+    <SubTexture name="living472/sdgesdgs" x="464" y="587" width="80" height="76"/>
+    <SubTexture name="living472/tghrtghbtrg" x="96" y="709" width="91" height="83"/>
+    <SubTexture name="living472/vfesvdvdfv" x="184" y="794" width="86" height="78"/>
+    <SubTexture name="living472/元件 12" x="280" y="867" width="74" height="76" frameX="-8" frameY="-6" frameWidth="90" frameHeight="90"/>
+    <SubTexture name="living472/元件 15" x="94" y="805" width="88" height="88" frameX="0" frameY="-1" frameWidth="90" frameHeight="90"/>
+    <SubTexture name="living472/元件 16" x="280" y="945" width="74" height="74" frameX="-8" frameY="-8" frameWidth="90" frameHeight="90"/>
+    <SubTexture name="living472/元件 4" x="2" y="805" width="90" height="90"/>
+    <SubTexture name="living472/受击_0000.png" x="372" y="587" width="90" height="77"/>
+    <SubTexture name="living472/受击_0001.png" x="281" y="709" width="90" height="77"/>
+    <SubTexture name="living472/受击_0002.png" x="272" y="788" width="90" height="77"/>
+    <SubTexture name="living472/受击_0003.png" x="188" y="874" width="90" height="77"/>
+    <SubTexture name="living472/受击_0004.png" x="280" y="587" width="90" height="77"/>
+    <SubTexture name="living472/受击_0005.png" x="189" y="709" width="90" height="77"/>
+    <SubTexture name="living472/滴_0000.png" x="989" y="2" width="30" height="48"/>
+    <SubTexture name="living472/滴_0001.png" x="957" y="2" width="30" height="48"/>
+    <SubTexture name="living472/红.png" x="810" y="510" width="200" height="197"/>
+</TextureAtlas>

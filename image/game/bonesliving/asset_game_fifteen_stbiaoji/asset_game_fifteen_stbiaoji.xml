@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:a1cf65ffc178022478908ace3e0b2870:1/1$ -->
+<TextureAtlas imagePath="asset_game_fifteen_stbiaoji.png">
+    <SubTexture name="bj" x="2" y="2" width="212" height="152" frameX="-10" frameY="-82" frameWidth="234" frameHeight="234"/>
+</TextureAtlas>

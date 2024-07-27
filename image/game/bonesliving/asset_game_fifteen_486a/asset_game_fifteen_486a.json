@@ -1,0 +1,263 @@
+{
+  "frameRate": 24,
+  "armature": [
+    {
+      "name": "asset_game_fifteen_486a",
+      "bone": [
+        {
+          "transform": {
+            "scY": 1.419983,
+            "x": -28.95,
+            "skX": 0,
+            "scX": 1.419983,
+            "y": -262.55,
+            "skY": 0
+          },
+          "name": "图层 2"
+        }
+      ],
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "图层 2",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "x": -34.4,
+                    "skX": 0,
+                    "y": -146.5,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living486/元件 1",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -148.05,
+                    "skX": 0,
+                    "y": -194.5,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living486/元件 2",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -148.05,
+                    "skX": 0,
+                    "y": -194.5,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living486/元件 3",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -148.05,
+                    "skX": 0,
+                    "y": -194.5,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living486/元件 4",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -148.05,
+                    "skX": 0,
+                    "y": -194.5,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living486/元件 5",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -148.05,
+                    "skX": 0,
+                    "y": -194.5,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living486/元件 6",
+                  "type": "image"
+                },
+                {
+                  "transform": {
+                    "x": -148.05,
+                    "skX": 0,
+                    "y": -82.5,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "skY": 0,
+                    "scY": 1
+                  },
+                  "name": "living486/元件 7",
+                  "type": "image"
+                }
+              ],
+              "parent": "图层 2"
+            }
+          ],
+          "name": "default"
+        }
+      ],
+      "animation": [
+        {
+          "duration": 21,
+          "name": "default",
+          "scale": 1,
+          "loop": 1,
+          "fadeInTime": 0,
+          "timeline": [
+            {
+              "name": "图层 2",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": -28.95,
+                    "skX": 0,
+                    "y": -262.55,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.419983,
+                    "skY": 0,
+                    "scY": 1.419983
+                  },
+                  "z": 0,
+                  "duration": 2
+                },
+                {
+                  "duration": 2,
+                  "z": 0,
+                  "displayIndex": 1,
+                  "transform": {
+                    "x": 0.3,
+                    "skX": 0,
+                    "y": -194.4,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.419983,
+                    "skY": 0,
+                    "scY": 1.419983
+                  }
+                },
+                {
+                  "duration": 2,
+                  "z": 0,
+                  "displayIndex": 2,
+                  "transform": {
+                    "x": 0.3,
+                    "skX": 0,
+                    "y": -194.4,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.419983,
+                    "skY": 0,
+                    "scY": 1.419983
+                  }
+                },
+                {
+                  "duration": 2,
+                  "z": 0,
+                  "displayIndex": 3,
+                  "transform": {
+                    "x": 0.3,
+                    "skX": 0,
+                    "y": -194.4,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.419983,
+                    "skY": 0,
+                    "scY": 1.419983
+                  }
+                },
+                {
+                  "duration": 2,
+                  "z": 0,
+                  "displayIndex": 4,
+                  "transform": {
+                    "x": 0.3,
+                    "skX": 0,
+                    "y": -194.4,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.419983,
+                    "skY": 0,
+                    "scY": 1.419983
+                  }
+                },
+                {
+                  "duration": 2,
+                  "z": 0,
+                  "displayIndex": 5,
+                  "transform": {
+                    "x": 0.3,
+                    "skX": 0,
+                    "y": -194.4,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.419983,
+                    "skY": 0,
+                    "scY": 1.419983
+                  }
+                },
+                {
+                  "duration": 2,
+                  "z": 0,
+                  "displayIndex": 6,
+                  "transform": {
+                    "x": 0.3,
+                    "skX": 0,
+                    "y": -35.4,
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1.419983,
+                    "skY": 0,
+                    "scY": 1.419983
+                  }
+                },
+                {
+                  "duration": 7,
+                  "displayIndex": -1
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "autoTween": 0,
+          "tweenEasing": null
+        }
+      ]
+    }
+  ],
+  "name": "asset_game_fifteen_486a",
+  "version": 2.3
+}
